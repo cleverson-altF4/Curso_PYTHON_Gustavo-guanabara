@@ -1,4 +1,4 @@
-from colorama import Fore, Back, Style, init
+from colorama import Fore, Style, init
 init(autoreset=True)
 
 #print(Fore.RED + "Texto vermelho")
@@ -20,6 +20,6 @@ for i in range(1, numero + 1):
 
 print(Style.BRIGHT + f"\n\33[m0 Total de número divísiveis por {numero} = {total} vezes")
 if total == 2:
-    print(Back.YELLOW + "Ele é um número primo")
+    print("Ele é um número primo")
 else:
     print(Style.BRIGHT + "Ele não é primo")
