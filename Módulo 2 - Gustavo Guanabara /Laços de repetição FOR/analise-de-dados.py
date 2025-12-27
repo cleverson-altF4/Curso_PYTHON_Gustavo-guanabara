@@ -12,7 +12,7 @@ for p in range(1,5):
     sexo = str(input("Sexo M/F: ")).strip()
     soma_idade += idade
 
-    if p == 1 and sexo in 'Mm':
+    if  p== 1 and sexo in 'Mm':
         maior_idade_homem = idade
         nome_velho = nome
     if sexo in 'Mm' and idade > maior_idade_homem:
