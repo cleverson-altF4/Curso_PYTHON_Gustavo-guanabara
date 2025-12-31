@@ -8,4 +8,9 @@ while sexo not in ['m', 'f']:
     print("Use apenas M/F\n")
     sexo = str(input("digite novamente: "))
     
-print("Agora sim está correto")
+   
+    
+if sexo in 'm':
+    print("Você é homem")
+else:
+    print("Você é mulher")
