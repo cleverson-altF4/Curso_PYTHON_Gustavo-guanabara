@@ -2,19 +2,24 @@
 #so que agora o jogador vai tentar adivinhar até acertar mostrando no final quantos palpites fora necessários para vencer
 
 from random import randint
+import emoji
 
+computador = randint(0,10)
+acertou = False #Bool
 tentativas = 0
-palpite = 0
-numero_secreto = randint(0,11)
 
-while palpite != numero_secreto:
-    palpite = int(input("Digite o número: "))
+while not acertou:
+    jogador = int(input("Qual é o seu palpite: "))
     tentativas += 1
     
-    if palpite < numero_secreto:
-        print("Está próximo de ganhar\n")
-    elif palpite > numero_secreto:
-        print("Passou quase perto\n")
-    
-print("Você venceu")
-print(f"Você teve {tentativas} tentativas até acertar o número")
+    if jogador == computador:
+        acertou = True # Bool
+    else:
+        if jogador < computador:
+            print(emoji.emojize(":pinching_hand: Mais um pouquinho\n"))
+        elif jogador > computador:
+             print("Menos.\n")
+        
+        
+print("Acertou 🎉\n")
+print("Tentativas : {}x\n".format(tentativas))
