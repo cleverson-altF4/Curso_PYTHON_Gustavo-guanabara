@@ -9,8 +9,9 @@
 a = 0
 b = 1
 contador = 0
-n = int(input("Número Fibonacci: "))
+n = int(input("Fibonacci: "))
+
 while contador < n:
     print(a, end= ' ')
-    a,b = b, a+b   
+    a, b = b, a + b
     contador += 1
