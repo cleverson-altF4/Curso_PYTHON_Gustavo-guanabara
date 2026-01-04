@@ -18,7 +18,7 @@ while True:
     contador += 1
         
         
-print(f"Sexo [{sexo} registrado]")
+print(f"Sexo [{sexo}] registrado")
 if contador:
     print(f"Teve {contador} tentativas")
 
