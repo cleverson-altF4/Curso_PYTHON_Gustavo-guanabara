@@ -18,7 +18,7 @@ while not acertou:
         if jogador < computador:
             print(emoji.emojize(":pinching_hand: Mais um pouquinho\n"))
         elif jogador > computador:
-             print("Menos ➖.\n")
+             print("Menos ➖.\n") 
         
         
 print("Acertou 🎉\n")
