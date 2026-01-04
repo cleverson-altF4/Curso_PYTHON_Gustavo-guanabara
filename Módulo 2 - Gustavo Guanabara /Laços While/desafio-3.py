@@ -1,38 +1,40 @@
-valor_um = 0
-valor_dois = 0
+import time
+
+numero_1 = int(input("Valor 1: "))
+numero_2 = int(input("Valor 2: "))
 opcao = 0
-somar = 0
-multi = 0
 
-while opcao != 4:
+while opcao != 5:
     print('''
-    1 - somar
-    2 - multiplicar
-    3 - novos números
-    4 - sair do programa
-    ''')
-
+      [1] - soma
+      [2] - Multiplicação
+      [3] - Maior
+      [4] - Novos números
+      [5] - sair do programa''')
     opcao = int(input("Selecione uma opção: "))
-
+    
     if opcao == 1:
-        valor_um = int(input("Valor 1: "))
-        valor_dois = int(input("Valor 2: "))
-        somar = valor_um + valor_dois
-        print(f"{valor_um} + {valor_dois} = {somar}")
-
+        soma = numero_1 + numero_2
+        print(f"{numero_1} + {numero_2} = {soma}")
     elif opcao == 2:
-        valor_um = int(input("Valor 1: "))
-        valor_dois = int(input("Valor 2: "))
-        multi = valor_um * valor_dois
-        print(f"{valor_um} x {valor_dois} = {multi}")
-
+        produto = numero_1 * numero_2
+        print(f"{numero_1} x {numero_2} = {produto}")
     elif opcao == 3:
-        valor_um = 0
-        valor_dois = 0
-        print("Números reiniciados!")
-
+        if numero_1 > numero_2:
+            maior = numero_1
+        else:
+            maior = numero_2
+            print(f"Entre o {numero_1} e {numero_2} o maior número é {maior} ")
     elif opcao == 4:
-        print("Saindo do programa...")
+            print(" ~ ~ ~ ~ Digite novamente ~ ~ ~ ~")
+            numero_1 = int(input("Valor 1: "))
+            numero_2 = int(input("Valor 2: "))
+    elif opcao == 5:
+            
+            tempo = time.sleep(1)
+            print('Saindo em 3...')
+            tempo = time.sleep(1)
+            print("Saindo em 2...")
+            tempo = time.sleep(1)
+            print("Saindo em 1...")
 
-    else:
-        print("Opção inválida!")
