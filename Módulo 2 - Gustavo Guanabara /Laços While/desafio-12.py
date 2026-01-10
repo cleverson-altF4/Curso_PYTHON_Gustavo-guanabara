@@ -1,19 +1,18 @@
 soma = resultado = 0
 while True:
     tabuada = int(input("Tabuada: "))
+    if tabuada <= 0:
+        break
+    
     
     for i in range(11):
-        soma = tabuada + i
+        soma = tabuada * i
         resultado = soma
-        print(f"{tabuada} + {i} = {resultado}")
-        
+        print(f"{tabuada} x {i} = {resultado}")
+    
+print("\nEncerrando o programa\n")    
 
-    print("\nDeseja continuar? \n")
-    continuar = str(input("Sim/Não: ")).strip().upper()[0]
-    if continuar == 'S':
-        continue
-    else:
-        break
+    
         
         
     
