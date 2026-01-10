@@ -1,5 +1,5 @@
 #interrompendo fluxo repetições While 
-numero = soma = 0
+numero = soma = quantidade = 0
 while True:
     numero = int(input("Digite um número: "))
     
@@ -7,4 +7,6 @@ while True:
         break
     
     soma += numero
-print(soma)
+    quantidade += 1
+print(f"A soma = {soma}")
+print(f"Quantidade de números = {quantidade}")
