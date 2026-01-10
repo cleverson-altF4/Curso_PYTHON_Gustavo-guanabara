@@ -1,4 +1,4 @@
-soma = subtracao = multi = divisao = resultado = 0
+soma = resultado = 0
 while True:
     tabuada = int(input("Tabuada: "))
     
@@ -6,9 +6,10 @@ while True:
         soma = tabuada + i
         resultado = soma
         print(f"{tabuada} + {i} = {resultado}")
-    
+        
+
     print("\nDeseja continuar? \n")
-    continuar = int(input("Sim/Não: ")).strip().upper()[0]
+    continuar = str(input("Sim/Não: ")).strip().upper()[0]
     if continuar == 'S':
         continue
     else:
