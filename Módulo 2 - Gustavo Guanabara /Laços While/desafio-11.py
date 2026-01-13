@@ -1,4 +1,4 @@
-#interrompendo fluxo repetições While 
+#interrompendo fluxo repetições While com flag
 numero = soma = quantidade = 0
 while True:
     numero = int(input("Digite um número: "))
