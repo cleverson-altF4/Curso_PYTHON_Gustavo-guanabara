@@ -20,25 +20,28 @@ while True:
     print()
     print("*"* 50)
     
-    
-    
-    total_gasto += preco
-    contador += 1
-    
+    total_gasto += preco # variável que soma os valores dos produtos
+    contador += 1 # Contador que irá comparar todos os produtos somados
+   
     if preco > 1000:
         mais_de1000 += 1
-    
-    if contador == 1 or preco < preco_do_produto_mais_barato:
-        preco_do_produto_mais_barato = preco
-        preco_do_produto_mais_barato = nome_produto
         
+    if contador == 1 or preco < preco_do_produto_mais_barato: 
+        # se o contador pegar o número 1 ele irá comparar vários produtos 
+        # se o preço do produto for menor que a variável do produto mais barato
+        preco_do_produto_mais_barato = preco
+        #pega a variável do preço mais barato e compara ao preço do produto
+        produto_mais_barato= nome_produto
+        #variável do produto mais barato ele compara qual o produto é o menor preço
+        
+
     usuario = str(input("Deseja continuar? [Sim ou Não]: ")).strip().upper()[0]
     if usuario == 'N':
         break
         
 print(f"Total do valor gasto: R$ {total_gasto}")
-print(f"Valor do produto mais caro: R$ {mais_de1000} reais")
-print(f"O produto mais barato: {preco_do_produto_mais_barato}")
+print(f"Temos {mais_de1000} produto com mais de MIl reais")
+print(f"O produto mais barato: {produto_mais_barato}")
     
   
     
