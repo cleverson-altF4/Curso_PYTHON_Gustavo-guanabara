@@ -7,15 +7,11 @@ while True:
     par_impar = input("par ou ìmpar? ").strip().upper()[0]
     
     if par_impar not in ('P', 'I'):
-        print("Apenas é permitido par ou ìmpar")
+        print('\n\033[31mErro!\033[mNão é permitido, tente apenas [Sim ou não]')
         continue
     
-    computador = randint(0, 11)
-    soma = numero + computador
-    
-    print(f"joguei {numero}")
-    print(f"O computador jogou {computador}")
-    print(f"A soma = {soma}")
+    computador = randint(0,10)
+    soma = computador + numero
     
     if soma % 2 == 0:
         resultado = 'P'
@@ -29,7 +25,10 @@ while True:
         print("Eu perdi")
         break
         
+print(f"Jogador jogou: {numero}")
+print(f"Computador jogou {computador}")
+print("A soma foi {}".format(soma))
+print(f"Jogador teve {numero} vitórias ")
     
-print(f"Vitórias consecutivas: {vitorias}")
-       
-        
+    
+    
