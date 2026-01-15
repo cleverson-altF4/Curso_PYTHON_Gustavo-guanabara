@@ -14,8 +14,8 @@ print()
 print('*'*10, "Mercadinho do jaca", '*'*10)
 print()
 while True:
-    nome_produto = str(input("Qual é o nome do produto: ")).strip().upper()
-    preco = float(input("Qual é o preço do produto: "))
+    nome_produto = str(input("Nome do produto: ")).strip().upper()
+    preco = float(input("Preço do produto R$: "))
    
     print()
     print("*"* 50)
@@ -35,10 +35,17 @@ while True:
         #variável do produto mais barato ele compara qual o produto é o menor preço
         
 
-    usuario = str(input("Deseja continuar? [Sim ou Não]: ")).strip().upper()[0]
-    if usuario == 'N':
-        break
+    continuar = ''
+    while continuar not in ('S', 'N'):
+        continuar = str(input("Deseja continuar? [Sim ou Não]: ")).strip().upper()
         
+        if continuar == '':
+            print("\nErro.")
+        else:
+            continuar = continuar[0]
+    if continuar == 'N':
+        break
+    
 print(f"Total do valor gasto: R$ {total_gasto}")
 print(f"Temos {mais_de1000} produto com mais de MIl reais")
 print(f"O produto mais barato: {produto_mais_barato}")
