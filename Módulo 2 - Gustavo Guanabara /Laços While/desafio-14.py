@@ -39,11 +39,3 @@ print(f"Total de pessoas com mais de 18 anos = {total18}")
 print(f"Total de homens cadastrados = {total_homens}")
 print(f"total de mulheres com menos de 20 anos = {total_mulheres}")
     
-
-
-
-
-
-
-
-    
