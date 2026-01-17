@@ -5,4 +5,4 @@ while True:
         break
     else:
         print("Tente novamente")
-print(f"Numero = {numeros[numero]}")
+print(f"Você digitou o número {numeros[numero]}")
