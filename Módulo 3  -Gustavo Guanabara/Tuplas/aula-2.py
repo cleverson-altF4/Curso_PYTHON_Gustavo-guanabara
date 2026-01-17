@@ -1,0 +1,7 @@
+times = ('Flamengo', 'Palmeiras', 'Cruzeiro', 'Corinthians', 'Grêmio', 'Internacional', 'Vasco')
+print('*'*37)
+print("~~~~~~~~ Campeonato Brasileiro ~~~~~~")
+print()
+print(f"Os 5 primeiros times: {times[0:5]}")
+print(f"Os 4 últimos times: {times[::-1][:4]}")
+print(f"Times em ordem alfabética: {sorted(times)}")
