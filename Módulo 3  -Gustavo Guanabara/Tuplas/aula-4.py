@@ -4,6 +4,8 @@ valores = (
     int(input("Digite um valor: ")),
     int(input("Digite um valor: "))
 )
+
+print("Você digitou os valores {}".format(valores))
 if 9 in valores:
     print(f"Contem o 9 em {valores.count(9)} vezes")
 else:
