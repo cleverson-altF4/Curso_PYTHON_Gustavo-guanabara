@@ -7,7 +7,7 @@ valores = (
 
 print("Você digitou os valores {}".format(valores))
 if 9 in valores:
-    print(f"Contem o 9 em {valores.count(9)} vezes")
+    print(f"Contem o 9 em {valores.count(9)}x")
 else:
     print("Não foi digitado o 9")
     
