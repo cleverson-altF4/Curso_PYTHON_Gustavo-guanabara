@@ -5,10 +5,9 @@ palavra = (
 
 for i in range(len(palavra)):
     nome = palavra[i]
-    print(f"Na palavra {nome.upper()} temos", end= ' ')
+    print(f"Temos na palavra {nome} as seguintes vogais", end= ' ')
     
     for vogais in nome:
         if vogais in 'aeiou':
             print(vogais, end= ' ')
     print()
-            
