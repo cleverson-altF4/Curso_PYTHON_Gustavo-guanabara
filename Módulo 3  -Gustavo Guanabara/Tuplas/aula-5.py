@@ -16,9 +16,7 @@ print("~"* 10,"Lista de produtos", "~"* 10)
 print("*"*40)
 print()
 
-for i in range(0, len(produtos), 2):
-    nome = produtos[i]
-    preco = produtos[i + 1]
+for posicao in range(0, len(produtos), 2):
+    nome = produtos[posicao]
+    preco = produtos[posicao + 1]
     print(f"{nome:.<30} R$: {preco:>6.2f}")
-    
-
