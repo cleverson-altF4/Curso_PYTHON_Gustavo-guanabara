@@ -22,3 +22,4 @@ print(f"Números pares: ", end= '')
 for par in valores:
     if par % 2 == 0:
         print(par, end= '-')
+    
