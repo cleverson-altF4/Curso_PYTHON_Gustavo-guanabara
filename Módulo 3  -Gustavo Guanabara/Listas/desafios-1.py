@@ -16,10 +16,10 @@ for posicao in range(0, len(valores)):
     print(f"posição {posicao} - dos valores : {valores[posicao]}")
     
     if valores[posicao] == maior:
-        print(f"O maior número está na posição {valores[posicao]}")
+        print(f"O maior número está na posição {posicao}")
 
     if valores[posicao] == menor:
-        print(f"O menor número está na posição {valores[posicao]}")
+        print(f"O menor número está na posição {posicao}")
 
 print("*" * 40)
 
