@@ -9,20 +9,19 @@ print("*" * 40)
 
 maior = max(valores)
 menor = min(valores)
-
-print(f"Números digitados na lista {valores}")
-
-for posicao in range(0, len(valores)):
-    print(f"posição {posicao} - dos valores : {valores[posicao]}")
-    
-    if valores[posicao] == maior:
-        print(f"O maior número está na posição {posicao}")
-
-    if valores[posicao] == menor:
-        print(f"O menor número está na posição {posicao}")
+print(f"Os valores digitados foram os valores {valores}")
+print(f"Maior número: {maior}")
+print(f"Menor número: {menor}")
 
 print("*" * 40)
 
+for posicao in range(0, len(valores)):
+    print(f"{posicao}-  posição {valores[posicao]}")
     
-print(f"O maior número {maior}")
-print(f"O menor número {menor}")
+    if valores[posicao] == maior:
+        print(f"O maior número está está na {posicao}")
+        
+    if valores[posicao] == menor:
+        print(f"O menor número está na posição {posicao}")
+        
+print("*"*40)
