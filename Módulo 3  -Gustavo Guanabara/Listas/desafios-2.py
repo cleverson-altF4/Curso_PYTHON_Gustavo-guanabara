@@ -10,9 +10,10 @@ while True:
         print("Esse número está na lista")
     else:
         lista.append(numero)
+        lista.sort()
         print("Adicionado com sucesso!")
-        
-        
+    
+       
     continuar = ''
     while continuar not in ('S', 'N'):
         continuar = str(input("Deseja continuar? [Sim ou Nao]: ")).strip().upper()
@@ -22,4 +23,5 @@ while True:
             continuar = continuar[0]
     if continuar == 'N':
         break
+print(f"Número em ordem crescente = {lista}")    
             
