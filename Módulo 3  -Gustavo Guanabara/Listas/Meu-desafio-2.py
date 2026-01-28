@@ -1,15 +1,11 @@
+#Crie um programa que onde o usuário possa digitar 5 valores númericos e cadastre-os em uma lista.
+#Já na posição correta de inserção(sem usar Sort())
+#NO final mostre a lista ordenada na tela
 lista = []
 
-while True:
-    numero = int(input("Digite um número: "))
+for i in list(range(1,6)):
+    usuario = int(input("Digite um valor: "))
     
-    if numero not in lista:
-        lista.append(numero)
-    
-        
-       
-    continuar = str(input("Deseja continuar?")).strip().upper()[0]
-    if continuar == 'N':
-        break
-    
-print(lista)
+    if len(lista) == 0:
+        lista.append(usuario)
+   
