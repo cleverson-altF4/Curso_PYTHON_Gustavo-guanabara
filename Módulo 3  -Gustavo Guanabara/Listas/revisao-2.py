@@ -24,4 +24,5 @@ print()
 
 #Saber o tamanho da lista
 valores = [1,4,8,9,7,5,3,1,0]
-print(f"QUANTIDA")
+len(valores)
+print(f"quantidade de números {len(valores)}")

@@ -1,0 +1,33 @@
+#crie um programa que vai ler vários números e colocar em uma lista depois disso mostre:
+#Quantos números foram digitados
+#A lista de valores ordenada forma decrescente
+#Se o valor 5 foi digitado e está ou não na lista
+
+
+lista = []
+
+while True:
+    valores = int(input("Digite um valor"))
+    
+    if valores in lista:
+        if 5 in lista:
+            print("O 5 está na lista")
+        else:
+            print("Não está na lista")
+        
+    continuar = ''
+    while continuar not in ('S', 'N'):
+        continuar = str(input("Deseja continuar? [Sim ou Nao]: ")).strip().upper()
+        if continuar == '':
+            print("ERRO!")
+        else:
+            continuar = continuar[0]
+    if continuar == 'N':
+        break
+    
+print(f"Você digitou {len(valores)}")
+
+
+
+    
+    
