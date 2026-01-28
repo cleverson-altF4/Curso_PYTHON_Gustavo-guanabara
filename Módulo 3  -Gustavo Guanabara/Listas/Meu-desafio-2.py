@@ -3,9 +3,26 @@
 #NO final mostre a lista ordenada na tela
 lista = []
 
-for i in list(range(1,6)):
-    usuario = int(input("Digite um valor: "))
+for i in range(1, 6):
+    numero = int(input("Digite um valor: "))
     
     if len(lista) == 0:
-        lista.append(usuario)
+        lista.append(numero)
+    else:
+        inserido = False
+
+        for posicao in range(len(lista)):
+            if numero <= lista[posicao]:
+                lista.insert(posicao, numero)
+                inserido = True
+                break
+
+        if not inserido:
+            lista.append(numero)
+
+print(lista)
+
+                
+            
+
    
