@@ -20,7 +20,7 @@ while True:
     if continuar == 'N':
         break
     
-print(f"Você digitou {len(lista)}")
+print(f"Você digitou {lista}")
 
 lista.sort(reverse=True)
 print(f"Lista com a ordem decrescente = {lista}")
