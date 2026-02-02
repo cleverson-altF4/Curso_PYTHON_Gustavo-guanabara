@@ -6,10 +6,10 @@
 
 lista = []
 
-for contador in range(0,5):
-    numero = int(input("Digite um valor: "))
+for i in range(0,5):
+    numero = int(input("Digite um número: "))
     
-    if contador == 0 or numero > lista[len(lista)-1]:
+    if i == 0 or numero > lista[len(lista)-1]:
         lista.append(numero)
         print("Adicionado no final da lista")
     else:
@@ -20,5 +20,5 @@ for contador in range(0,5):
                 print(f"Adicionado na posição {posicao}")
                 break
             posicao += 1
-    
-print(f"Os valores digitados em ordem foram {lista}")
+
+print(lista)

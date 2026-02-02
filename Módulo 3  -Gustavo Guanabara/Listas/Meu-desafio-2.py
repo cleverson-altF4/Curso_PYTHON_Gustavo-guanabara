@@ -3,26 +3,24 @@
 #NO final mostre a lista ordenada na tela
 lista = []
 
-for i in range(1, 6):
+for contador in range(0, 5):
     numero = int(input("Digite um valor: "))
     
-    if len(lista) == 0:
+    if contador == 0 or numero > lista[len(lista)-1]:
         lista.append(numero)
+        print("Adicionado no final da lista")
     else:
-        inserido = False
-
-        for posicao in range(len(lista)):
+        posicao = 0
+        while posicao < len(lista):
             if numero <= lista[posicao]:
                 lista.insert(posicao, numero)
-                inserido = True
+                print(f"Adicionado na posição {posicao}")
                 break
-
-        if not inserido:
-            lista.append(numero)
-
-print(lista)
-
-                
+            posicao += 1
             
+        
+print(lista)
+    
+   
 
    
