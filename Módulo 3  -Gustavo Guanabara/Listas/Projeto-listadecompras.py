@@ -10,28 +10,40 @@ print('''
 opcao = int(input("Selecione uma opção: "))
 
 while True:
-    lista.append(str(input("Anote a sua lista de compras: ")))
     
-
-    continuar = ''
-    while continuar not in ('S', 'N'):
-        continuar = str(input("Deseja adicionar outro? [Sim ou Não]: ")).strip().upper()
-        if continuar == '':
-            print("Está vazio, digite novamente")
+    if opcao == 1:
+        produto = str(input("produto: ")).strip()
+        if produto == '':
+            print("produto vazio não é permitido")
+        elif produto in lista:
+            produto("O produto está na lista")
         else:
-            continuar = continuar[0]
-    if continuar == 'N':
-        break
-    
-    if '' in lista:
-        lista.remove('')
+            lista.append(produto)
+            print("O produto foi adicionado na lista.")
+    elif opcao == 2:
+        produto = str(input("Qual produto deseja remover? ")).strip()
+        
+        if produto in lista:
+            lista.remove(produto)
+            print("Produto removido")
+        else:
+            print("Produto não encontrado")
+    elif opcao == 3:
+        print("\nLista de compras")
+        if len(lista) == 0:
+            print("A lista está vazia")
+        else:
+            for posicao, compras in enumerate(lista):
+                print(f"{posicao + 1} = {compras}")
+    elif opcao == 4:
+        print("\nLista de compras completa")
+        for posicao, compras in enumerate(lista):
+            print(f"{posicao + 1} = {compras}")
+    else:
+        print("Opção inválida")
 
-        
-        
 
-        
-for posicao, compras in enumerate(lista):
-        print(f"{posicao + 1} = {compras}")
+   
         
 
 
