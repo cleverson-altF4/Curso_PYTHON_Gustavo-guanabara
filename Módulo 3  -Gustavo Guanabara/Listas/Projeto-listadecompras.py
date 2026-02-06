@@ -1,50 +1,51 @@
 lista = []
 
-print("*"*40)
-print("Menu de compras")
-print('''
-      [1] - Adicionar um produto
-      [2] - Remover um produto
-      [3] - Mostrar a lista de compras
-      [4] - sair da lista''')
-opcao = int(input("Selecione uma opção: "))
-
 while True:
+    print("*"*40)
+    print("~"*12, "Lista de compras", "~"*12)
+    print('''
+        [1] - Adicionar produto na lista
+        [2] - Remover o produto da lista
+        [3] - Mostrar os produtos da lista
+        [4] - Sair do programa''')
+    opcao = int(input("Selecione a opção desejada: "))
     
     if opcao == 1:
-        produto = str(input("produto: ")).strip()
+        
+        produto = str(input("Nome do produto da lista: ")).strip()
+        
         if produto == '':
-            print("produto vazio não é permitido")
+            print("\nNão é permitido espaços vazios")
         elif produto in lista:
-            produto("O produto está na lista")
+            print("O produto está na lista")
         else:
             lista.append(produto)
-            print("O produto foi adicionado na lista.")
+            print("\nProduto adicionado com sucesso!")
     elif opcao == 2:
         produto = str(input("Qual produto deseja remover? ")).strip()
         
-        if produto in lista:
-            lista.remove(produto)
-            print("Produto removido")
-        else:
-            print("Produto não encontrado")
+        for posicao, mercadoria in enumerate(lista):
+            
+            if mercadoria == produto:
+                print("\nRemovendo produto da lista")
+                lista.remove(produto)
+                print(f"{posicao + 1} = {produto} removido ")
     elif opcao == 3:
-        print("\nLista de compras")
+        
         if len(lista) == 0:
             print("A lista está vazia")
         else:
-            for posicao, compras in enumerate(lista):
-                print(f"{posicao + 1} = {compras}")
+            for posicao, mercadoria in enumerate(lista):
+                
+                print(f"{posicao + 1} = {mercadoria}")
     elif opcao == 4:
-        print("\nLista de compras completa")
-        for posicao, compras in enumerate(lista):
-            print(f"{posicao + 1} = {compras}")
+        print("\nLista de compras completa!")
+        for posicao, mercadoria in enumerate(lista):
+                
+                print(f"{posicao + 1} = {mercadoria}")
+        break
     else:
-        print("Opção inválida")
-
-
-   
+        print("Até aqui se não aprendeu porque tu é Petista")
         
-
-
+                
     
