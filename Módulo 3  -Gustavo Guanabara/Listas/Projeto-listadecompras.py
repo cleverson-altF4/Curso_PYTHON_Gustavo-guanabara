@@ -11,7 +11,6 @@ while True:
     opcao = int(input("Selecione a opção desejada: "))
     
     if opcao == 1:
-        
         produto = str(input("Nome do produto da lista: ")).strip()
         
         if produto == '':
@@ -21,31 +20,33 @@ while True:
         else:
             lista.append(produto)
             print("\nProduto adicionado com sucesso!")
+
     elif opcao == 2:
         produto = str(input("Qual produto deseja remover? ")).strip()
         
         for posicao, mercadoria in enumerate(lista):
-            
             if mercadoria == produto:
                 print("\nRemovendo produto da lista")
-                lista.remove(produto)
-                print(f"{posicao + 1} = {produto} removido ")
+                lista.remove(mercadoria)
+                print(f"{posicao + 1} = {mercadoria} removido ")
+                break
+        else:
+            print("Este produto não está na lista")
+
     elif opcao == 3:
-        
         if len(lista) == 0:
             print("A lista está vazia")
         else:
             for posicao, mercadoria in enumerate(lista):
-                
                 print(f"{posicao + 1} = {mercadoria}")
+
     elif opcao == 4:
-        print("\nLista de compras completa!")
-        for posicao, mercadoria in enumerate(lista):
-                
+        print("\nTabela completa da lista de compras\n")
+
+        if len(lista) == 0:
+            print("A lista está vazia")
+        else:
+            for posicao, mercadoria in enumerate(lista):
                 print(f"{posicao + 1} = {mercadoria}")
-        break
-    else:
-        print("Até aqui se não aprendeu porque tu é Petista")
+                break
         
-                
-    
