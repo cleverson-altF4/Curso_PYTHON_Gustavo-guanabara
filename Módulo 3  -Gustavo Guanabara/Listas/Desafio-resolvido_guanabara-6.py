@@ -4,19 +4,19 @@
 #Nível intermediário
 
 expressao = str(input("Digite uma expressão: "))
-pilha = []
+parenteses = []
 
 for simbolo in expressao:
     if simbolo == '(':
-        pilha.append('(')
+        parenteses.append("(")
     elif simbolo == ')':
-        if len(pilha) > 0:
-            pilha.pop()
+        if len(parenteses) > 0:
+            parenteses.pop()
         else:
-            pilha.append()
+            parenteses.append()
             break
-        
-if len(pilha) == 0:
+    
+if len(parenteses) == 0:
     print("Seu cálculo está correto")
 else:
-    print("falta um parênteses")
+    print("Está errado")
