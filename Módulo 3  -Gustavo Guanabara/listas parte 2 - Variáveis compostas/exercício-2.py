@@ -6,3 +6,7 @@ print(galera[:]) #[["Clevison", 31], ["Claudia", 30], ["Cuca", 25]]
 print(galera[0][1]) #31
 print(galera[1][1]) #30
 print(galera[2][1]) #25
+
+
+for indice in galera:
+    print(f"{indice[0]} tem {indice[1]} anos de idade")
