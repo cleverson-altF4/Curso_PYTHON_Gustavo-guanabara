@@ -2,16 +2,17 @@
 
 matriz = []
 
-for i in range(3):
+for linha in range(3):
     linha_matriz = []
     
-    for i in range(3):
+    for coluna in range(3):
         numero = int(input("Digite: "))
         linha_matriz.append(numero)
     matriz.append(linha_matriz)
     
-print("\nMatriz 3x3")
-
 for linha_matriz in matriz:
     print(linha_matriz)
+print()
+
+        
         
