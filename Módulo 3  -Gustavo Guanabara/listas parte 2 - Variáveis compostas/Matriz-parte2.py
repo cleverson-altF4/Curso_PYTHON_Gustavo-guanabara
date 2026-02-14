@@ -33,5 +33,10 @@ for linha in range(0,3):
 print(f"A soma da coluna [0,2][1,2][2,2]: {soma_coluna}")
 
 
-for linha in range(0,3):
-    if matriz[linha]
+for coluna in range(3):
+    if coluna == 0:
+        maior = matriz[1][coluna]
+    elif matriz[1][coluna] > maior:
+        maior = matriz[1][coluna]
+        
+print(f"O maior valor da segunda linha [1,0][1,1][1,1]: {maior}")
