@@ -6,32 +6,33 @@
 #O maior valor da segunda linha
 
 matriz = [[0,0,0],[0,0,0],[0,0,0]]
-soma_par = maior = soma_coluna = 0
+soma_pares = soma_coluna = maior = 0
+
 for linha in range(3):
     for coluna in range(3):
-        matriz[linha][coluna] = int(input(f"Digite [{linha}][{coluna}]: "))
-        
+        matriz[linha][coluna] = int(input(f"Digite: [{linha}][{coluna}]: "))
         
 print("-"*30)
-print("\nMatriz 3x3")
-
+print('-'*9,"Matriz 3x3", '-'*9)
+print()
+print("-"*30)
 
 for linha in range(3):
     for coluna in range(3):
         print(f"[{matriz[linha][coluna]}]", end=' ')
         if matriz[linha][coluna] % 2 == 0:
-            soma_par += matriz[linha][coluna]
+            soma_pares += matriz[linha][coluna]
     print()
     
-    
 print("-"*30)
-print(f"A soma dos números pares da Matriz = {soma_par}")
+print('-'*9,"Resultado", '-'*9)
+print()     
+print(f"Números pares da matriz: {soma_pares}")
 
-for linha in range(0,3):
-    soma_coluna += matriz[linha][2]
-    
-print(f"A soma da coluna [0,2][1,2][2,2]: {soma_coluna}")
-
+for linha in range(3):
+   soma_coluna += matriz[linha][2]
+   
+print(f"A soma dos valores da 3º coluna: {soma_coluna}")
 
 for coluna in range(3):
     if coluna == 0:
@@ -39,4 +40,7 @@ for coluna in range(3):
     elif matriz[1][coluna] > maior:
         maior = matriz[1][coluna]
         
-print(f"O maior valor da segunda linha [1,0][1,1][1,1]: {maior}")
+print(f"O maior número da 2º coluna: {maior}")
+        
+
+print("-"*30)
