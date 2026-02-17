@@ -27,7 +27,7 @@ for linha in range(tamanho):
             
         if coluna == 1:
             if linha == 0:
-                maior_segunda_linha += numero
+                maior_segunda_linha = numero
             else:
                 if numero > maior_segunda_linha:
                     maior_segunda_linha = numero
