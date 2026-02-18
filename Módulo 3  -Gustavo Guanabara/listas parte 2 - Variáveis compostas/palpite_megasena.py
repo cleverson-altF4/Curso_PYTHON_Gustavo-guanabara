@@ -2,11 +2,16 @@
 #O programa vai perguntar quantos jogos serão gerados e vai sortear 6 números entre 1 e 60 para cada jogo cadastrando tudo em uma lista composta.
 
 from random import randint
+from time import sleep
 
 lista = []
 jogos = []
 
-quantidade_jogos = int(input("Quantos jogos: "))
+print("-"*40)
+print('-'* 10, "Jogo da Mega sena", '-'* 10)
+print("-"*40)
+
+quantidade_jogos = int(input("Deseja quantos jogos? "))
 total = 1
 
 while total <= quantidade_jogos:
@@ -25,6 +30,13 @@ while total <= quantidade_jogos:
     jogos.append(lista[:])
     lista.clear()
     total += 1
-
-print(jogos)
+        
     
+print('*'*3, f"SORTEANDO {quantidade_jogos} JOGOS", '*'*3)
+
+    
+for i, list in enumerate(jogos):
+    print(f" JOGO {i + 1} - {list }")
+    sleep(1)
+    
+print("\nBoa sorte!")
