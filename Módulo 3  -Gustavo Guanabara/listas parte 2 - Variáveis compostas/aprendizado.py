@@ -51,31 +51,31 @@ while True:
         if lista_com_dados == []:
             print("Não há alunos cadastrados.")
         else:
-            # Base inicial
+            #variáveis 
             maior = lista_com_dados[0][1]
             menor = lista_com_dados[0][1]
-
-            lista_maiores = [lista_com_dados[0][0]]
-            lista_menores = [lista_com_dados[0][0]]
-
-            # Percorrendo a lista
+            
+            lista_maior = [lista_com_dados[0][0]]
+            lista_menor = [lista_com_dados[0][0]]
+            
             for aluno in lista_com_dados[1:]:
-
-                # Maior nota
                 if aluno[1] > maior:
                     maior = aluno[1]
-                    lista_maiores = [aluno[0]]
-
+                    lista_maior = [aluno[0]]
+                    
                 elif aluno[1] == maior:
-                    lista_maiores.append(aluno[0])
-
-                # Menor nota
+                    lista_maior.append(aluno[0])
+                    
+                    
                 if aluno[1] < menor:
                     menor = aluno[1]
-                    lista_menores = [aluno[0]]
-
+                    lista_menor = [aluno[0]]
+                
+                    
                 elif aluno[1] == menor:
-                    lista_menores.append(aluno[0])
-
-            print(f"Maior nota: {maior} - Alunos: {', '.join(lista_maiores)}")
-            print(f"Menor nota: {menor} - Alunos: {', '.join(lista_menores)}")
+                    lista_menor.append(aluno[0])
+                    
+                    
+            print("-"*40)
+            print(f"Maior nota: {maior} - Alunos: {', '.join(lista_maior)}")
+                    
