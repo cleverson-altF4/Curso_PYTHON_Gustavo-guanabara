@@ -77,5 +77,17 @@ while True:
                     
                     
             print("-"*40)
-            print(f"Maior nota: {maior} - Alunos: {', '.join(lista_maior)}")
+            print(f"Maior nota: {maior} - Alunos(a): {', '.join(lista_maior)}")
+            print(f"Maior nota: {menor} - Aluno(a): {', '.join(lista_menor)}")
+    elif opcao == 5:
+        if lista_com_dados == []:
+            print("Não há alunos para a busca")
+            break
+        else:
+            busca_aluno = str(input("Deseja pesquisar qual aluno: "))
+            encontrado = False
+            
+            for aluno in lista_com_dados:
+                if busca_aluno == aluno:
+                    encontrado = True
                     
