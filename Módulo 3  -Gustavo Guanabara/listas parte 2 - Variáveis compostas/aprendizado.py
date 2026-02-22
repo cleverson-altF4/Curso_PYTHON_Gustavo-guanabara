@@ -1,98 +1,94 @@
-print('-'*40)
-print('-'*10,"Cadastro de alunos",'-'*10)
-print('-'*40)
-
-print()
+from time import sleep
+print("-"*40)
+print("     - Sistema de cadastro escolar -     \n")
+print("-"*40)
 
 dados = []
 lista_com_dados = []
 
-
 while True:
-    print('''
-      1 - Cadastro de alunos
-      2 - Listar alunos
-      3 - Mostrar aprovados e reprovados
-      4 - Mostrar maior nota
-      5 - Buscar por aluno desejado
-      6 - Sair''')
     
-    opcao = int(input("Digite a opção: "))
+    print('''
+        1 - Cadastrar aluno
+        2 - lista de alunos cadastrados
+        3 - Lista de alunos aprovados/reprovados
+        4 - Mostrar a maior nota
+        5 - Buscar por aluno
+        6 - Sair do programa''')
+    
+    opcao = int(input("\nSelecione uma opção: "))
+    
+    
     
     if opcao == 1:
-        print("\n~ ---- Cadastro -----~")
-        dados.append(str(input("Digite o seu nome: ")).strip())
-        dados.append(float(input("Digite a sua nota: ")))
+        print(" ----------- Cadastrar aluno ----------- ")
+        dados.append(str(input("Nome do aluno: ")).strip())
+        dados.append(float(input("Qual foi a nota do aluno: ")))
         lista_com_dados.append(dados[:])
         dados.clear()
     elif opcao == 2:
-        print("\n~ ---- Lista dos alunos -----~")
+        print("-"*40)
+        print("     - Lista completa -")
+        print()
         if lista_com_dados == []:
-            print("A lista está vazia")
+            print("Lista vazia")
         else:
-            
             for i, aluno in enumerate(lista_com_dados):
-                print(f"Aluno {i + 1} - Nome = {aluno[0]}  Nota = {aluno[1]}")
+             print(f"{i + 1} - {aluno[0]}")
     elif opcao == 3:
-        print("\n~ ---- Sintuação do aluno -----~")
-        for aluno in lista_com_dados:
-            if aluno == []:
-                print("Não há aluno matriculado")
-            else:
+        print(" ----------- aprovados/reprovados ----------- ")
+        if lista_com_dados == []:
+            print("Não há aluno matriculado")
+        else:
+            for i, aluno in enumerate(lista_com_dados):
                 if aluno[1] >= 7:
-                    print(f"Aluno(a) {aluno[0]} = Aprovado")
+                    print(f"{i + 1} - {aluno[0]} - \033[32mAprovado\033[m")
                 else:
-                    print(f"Aluno(a) {aluno[0]} = Reprovado")
+                    print(f"{i + 1} - {aluno[0]} - \033[31mReprovado\033[m")
     elif opcao == 4:
+        maior = lista_com_dados[0][1]
+        menor = lista_com_dados[0][1]
         
-
-        print("\n~ ---- Maior e Menor Nota -----~")
-
-        if lista_com_dados == []:
-            print("Não há alunos cadastrados.")
-        else:
-            #variáveis 
-            maior = lista_com_dados[0][1]
-            menor = lista_com_dados[0][1]
+        nome_maior = [lista_com_dados[0][0]]
+        nome_menor = [lista_com_dados[0][0]]
             
-            lista_maior = [lista_com_dados[0][0]]
-            lista_menor = [lista_com_dados[0][0]]
-            
-            for aluno in lista_com_dados[1:]:
-                if aluno[1] > maior:
-                    maior = aluno[1]
-                    lista_maior = [aluno[0]]
-                    
-                elif aluno[1] == maior:
-                    lista_maior.append(aluno[0])
-                    
-                    
-                if aluno[1] < menor:
-                    menor = aluno[1]
-                    lista_menor = [aluno[0]]
+        for aluno in lista_com_dados[1:]:
+            if aluno[1] > maior:
+                maior = aluno[1]
+                nome_maior = [aluno[0]]
                 
-                    
-                elif aluno[1] == menor:
-                    lista_menor.append(aluno[0])
-                    
-                    
-            print("-"*40)
-            print(f"Maior nota: {maior} - Alunos(a): {', '.join(lista_maior)}")
-            print(f"Maior nota: {menor} - Aluno(a): {', '.join(lista_menor)}")
+            elif aluno[1] == maior:
+                nome_maior.append(aluno[0])
+                
+            if aluno[1] < menor:
+                menor = aluno[1]
+                nome_menor = [aluno[0]]
+                
+            elif aluno[1] == menor:
+                nome_menor.append(aluno[0])
+        print(f"Maior nota: \033[32m{maior}\033[m")
+        print(f"Alunos com a maior nota: {', '.join(nome_maior)}")
+        print(f"Menor nota: \033[31m{menor}\033[m")
+        print(f"Alunos com a menor nota: {', '.join(nome_menor)}")
     elif opcao == 5:
+        buscar_aluno = str(input("Procurar aluno: ")).strip()
+        encontrado = True
+        
         if lista_com_dados == []:
-            print("Não há alunos para a busca")
-            
+            print("Não há aluno matriculado")
         else:
-            busca_aluno = str(input("Deseja pesquisar qual aluno: "))
-            encontrado = False
-            
             for aluno in lista_com_dados:
-                if busca_aluno == aluno[0]:
+                if aluno[0] == buscar_aluno:
                     encontrado = True
-                    print(f"Aluno encontrado {aluno[0]}")
+                    print(f"Aluno {aluno[0]} encontrado")
                 else:
                     encontrado = False
-                    print("Aluno não encontrado")
-                    
-                    
+                    print("Não tem registro do aluno procurado")
+    else:
+        
+        print("Saindo do programa")
+        sleep(2)
+        break
+                
+                
+        
