@@ -82,12 +82,17 @@ while True:
     elif opcao == 5:
         if lista_com_dados == []:
             print("Não há alunos para a busca")
-            break
+            
         else:
             busca_aluno = str(input("Deseja pesquisar qual aluno: "))
             encontrado = False
             
             for aluno in lista_com_dados:
-                if busca_aluno == aluno:
+                if busca_aluno == aluno[0]:
                     encontrado = True
+                    print(f"Aluno encontrado {aluno[0]}")
+                else:
+                    encontrado = False
+                    print("Aluno não encontrado")
+                    
                     
