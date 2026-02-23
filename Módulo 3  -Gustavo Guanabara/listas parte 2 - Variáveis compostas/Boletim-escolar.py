@@ -44,6 +44,6 @@ while True:
         break
     
     if operacao >= 1 and operacao <= len(ficha):
-        print(f"Aluno(a): {ficha[operacao - 1][0]} | Média: {ficha[operacao - 1][1]}")
+        print(f"Aluno(a): {ficha[operacao - 1][0]} | Notas: {ficha[operacao - 1][1]}")
     else:
         print("Não foi encontrado nenhum aluno na lista")
