@@ -1,0 +1,116 @@
+1) Defina a regra da tabela (didática)
+Use esta regra fixa no projeto:
+
+G-4: posições 1 a 4
+Libertadores: posições 1 a 6
+Sul-Americana: posições 7 a 12
+Z-4 / Rebaixados: posições 17 a 20
+2) Estrutura dos dados com listas
+Cada time será uma lista:
+
+[nome, pontos, vitorias, saldo]
+
+A tabela será uma lista de times:
+
+tabela = []
+
+3) Cadastro dos 20 times com while
+Repetir até cadastrar 20 times.
+Ler nome, pontos, vitórias e saldo.
+Adicionar com append.
+4) Ordenar a tabela sem sort
+Como você quer só for, while, condições, use ordenação manual (bubble sort):
+
+Comparar time atual com o próximo.
+Trocar se estiver “menor” pelos critérios:
+mais pontos
+em empate, mais vitórias
+em empate, maior saldo
+5) Mostrar classificação com for
+Percorrer a lista e mostrar posição.
+
+6) Mostrar blocos (G-4, Libertadores, Sul-Americana, Z-4)
+Usar for com intervalos de índices:
+
+0..3 → G-4
+0..5 → Libertadores
+6..11 → Sul-Americana
+16..19 → Rebaixados
+Código completo (modelo iniciante)
+# Sistema simples de tabela do Brasileirão
+# Usando apenas: listas, for, while, condições
+
+tabela = []
+qtd = 20
+i = 0
+
+print("=== CADASTRO DE TIMES ===")
+while i < qtd:
+    print(f"\nTime {i + 1}")
+    nome = input("Nome: ")
+    pontos = int(input("Pontos: "))
+    vitorias = int(input("Vitórias: "))
+    saldo = int(input("Saldo de gols: "))
+
+    time = [nome, pontos, vitorias, saldo]
+    tabela.append(time)
+
+    i += 1
+
+# Ordenação manual (Bubble Sort)
+# Critérios: pontos, vitórias, saldo
+n = len(tabela)
+passada = 0
+
+while passada < n - 1:
+    j = 0
+    while j < n - 1 - passada:
+        atual = tabela[j]
+        prox = tabela[j + 1]
+
+        trocar = False
+
+        # 1) Pontos
+        if atual[1] < prox[1]:
+            trocar = True
+        elif atual[1] == prox[1]:
+            # 2) Vitórias
+            if atual[2] < prox[2]:
+                trocar = True
+            elif atual[2] == prox[2]:
+                # 3) Saldo
+                if atual[3] < prox[3]:
+                    trocar = True
+
+        if trocar:
+            aux = tabela[j]
+            tabela[j] = tabela[j + 1]
+            tabela[j + 1] = aux
+
+        j += 1
+    passada += 1
+
+# Classificação geral
+print("\n=== CLASSIFICAÇÃO FINAL ===")
+for pos in range(len(tabela)):
+    print(f"{pos + 1}º - {tabela[pos][0]} | {tabela[pos][1]} pts | V: {tabela[pos][2]} | SG: {tabela[pos][3]}")
+
+# G-4
+print("\n=== G-4 ===")
+for k in range(0, 4):
+    print(f"{k + 1}º - {tabela[k][0]}")
+
+# Libertadores (1 a 6)
+print("\n=== LIBERTADORES ===")
+for k in range(0, 6):
+    print(f"{k + 1}º - {tabela[k][0]}")
+
+# Sul-Americana (7 a 12)
+print("\n=== SUL-AMERICANA ===")
+for k in range(6, 12):
+    print(f"{k + 1}º - {tabela[k][0]}")
+
+# Rebaixados Z-4 (17 a 20)
+print("\n=== REBAIXADOS (Z-4) ===")
+for k in range(16, 20):
+    print(f"{k + 1}º - {tabela[k][0]}")
