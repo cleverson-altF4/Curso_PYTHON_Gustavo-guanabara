@@ -7,7 +7,7 @@
 
 tabela = []
 inicio = 0
-quantidade = 1 # 20 times
+quantidade = 20 # 20 times
 print("-"*40)
 print("       Campeonato Brasileiro      ")
 print("-"*40)
@@ -22,9 +22,33 @@ while inicio <= quantidade:
     tabela.append(time)
     inicio += 1
     
-print(f"{'J':>2} | {'Time':>10} | {'V':>3} | {'S':>3} |")
-for posicao, jogos in enumerate(tabela):
-    print(f"{posicao + 1:>2} | {jogos[0]:>10} | {jogos[1]:>3} | {jogos[2]:>3} |")
+#praticar  Buble Sort    
+for i in range(len(tabela)):
+    for j in range(i + 1, len(tabela)):
+        if tabela[i][1] < tabela[j][1]:
+           temporario = tabela[i]
+           tabela[i] = tabela[j]
+           tabela[j] = temporario
+    
+    
+print(f"{'J':>2}|{'Time':>15}|{'Pon':>3}|{'V':>3}|{'S':>3}| Situação")
+print("-"*45)
+
+for posicao in range(len(tabela)):
+    colocacao = posicao + 1
+
+    if colocacao <= 4:
+        situacao = 'G4'
+    elif colocacao <= 6:
+        situacao = 'Libertadores'
+    elif colocacao <= 12:
+        situacao = 'Sul-Americano'
+    elif colocacao >= 17:
+        situacao = 'Rebaixamento'
+    else:
+        situacao = ''
+        
+    print(f"{colocacao:>2}|{tabela[posicao][0]:>15}|{tabela[posicao][1]:>3}|{tabela[posicao][2]:>3}|{tabela[posicao][3]:>3}| {situacao}")
 
     
 
