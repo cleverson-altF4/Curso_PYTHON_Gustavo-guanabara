@@ -7,6 +7,8 @@
 #idade
 #cidade
 #Mostre os dados na tela
+
+from datetime import datetime
 print("-"*30)
 print("      Cadastro de alunos     ")
 print("-"*30)
@@ -21,4 +23,17 @@ print("Dados do cadastro")
 
 
 for chaves, valores in cadastro.items():
-    print(f"{chaves} : {valores}")
+    if chaves == 'nome' or chaves == 'idade':
+        print(f"{chaves} : {valores}")
+
+ano_atual = datetime.now().year
+
+for chaves, valores in cadastro.items():
+    
+    if chaves == 'idade':
+        data_nascimento = ano_atual - valores
+        print(f"Data de nascimento: {data_nascimento}")
+        
+
+
+
