@@ -1,59 +1,74 @@
 from datetime import datetime
+from time import sleep
+print("-"*40)
+print("       - Sistem de cadastro -     ")
 
-pessoas = [] # Lista
-print("\n", "-"*40)
-    
-print("       - Sistema de cadastro -     ")
+
+print("-"*40)
+
+lista = [] #lista
 
 while True:
-    
+   
     print('''
-          1 - cadastrar aluno
-          2 - Listar pessoas 
-          3 - Idade é maior ou menor
-          4 - sair''')
-    
-    opcao = int(input("Deseja qual opção? "))
-    
+      1 - Cadastro de alunos
+      2 - Listas dos alunos
+      3 - Alunos maior ou menor idade
+      4 - sair do programa''')
     print("-"*40)
+  
+    opcao = int(input("Digite a sua opção: "))
+    print("\n")
     
     if opcao == 1:
-        pessoa = {} # Dicionário
-        pessoa["nome"] = str(input("Digite o seu nome: ")).strip()
-        pessoa["idade"] = int(input("Sua idade: "))
-        pessoa["cidade"] = str(input("Sua cidade: ")).strip()
-        pessoas.append(pessoa)
-        print("Cadastro realizado com sucesso!")
-    if opcao == 2:
-        if len(pessoas) == 0:
+        aluno = {} # dicionário
+        aluno["nome"] = str(input("Digite o seu nome: ")).strip()
+        aluno["idade"] = int(input("Digite a sua idade: "))
+        aluno["cidade"] = str(input("Qual a sua cidade: ")).strip()
+        lista.append(aluno)
+        print("Aluno cadastrado com sucesso!")
+    elif opcao == 2:
+        if len(lista) == 0:
             print("Não há aluno cadastrado")
         else:
             ano_atual = datetime.now().year
-
-            for p in pessoas:
-                print("-"*30)
-                print("Nome:", p["nome"])
-                print("Idade:", p["idade"])
-                print("Cidade:", p["cidade"])
-
-                ano_nascimento = ano_atual - p["idade"]
-                print("Ano de nascimento:", ano_nascimento)
-                
+            for pessoa in lista:
+                print(f'Nome: {pessoa["nome"]}')
+                print(f'Idade: {pessoa["idade"]}')
+                print(f'Cidade: {pessoa["cidade"]}')
+                data_nascimento = ano_atual - pessoa["idade"]
+                print(f"Data de nascimento:  {data_nascimento}")
+                print("-"*40)
+            print()
     elif opcao == 3:
-        if len(pessoas) == 0:
-            print("Não há aluno cadastrado")
+        maior = lista[0]["idade"]
+        menor = lista[0]["idade"]
+        
+        nome_maior = lista[0]["nome"]
+        nome_menor = lista[0]["nome"]
+        
+        if len(lista) == 0:
+            print("Não há aluno cadastrado!")
         else:
-            maior = 0
-            
-            for p in pessoas:
-                if p["idade"] > maior:
-                    maior = p["idade"]
+            for pessoa in lista:
+                if pessoa["idade"] > maior:
+                    maior = pessoa["idade"]
+                    nome_maior = pessoa["nome"]
                     
-            print(f"A pessoa com maior maior cadastrado:  {maior} anos")
+                if pessoa["idade"] < menor:
+                     menor = pessoa["idade"]
+                     nome_menor = pessoa["nome"]
+                     
+            print(f'O aluno com a maior idade: {nome_maior}: {maior} anos')
+            print(f'O aluno com a menor idade: {nome_menor} {menor} anos')
+            
     elif opcao == 4:
         if opcao == 4:
+            print("Finalizando programa")
+            sleep(1.3)
             break
         else:
-            print("opção inválida")
-        
-        
+            print("Opção invalida!")
+                    
+            
+                
