@@ -35,4 +35,25 @@ while True:
               aluno = lista[i]
               
               print(f"{i+1} - {aluno['nome']} | Nota 1: {aluno['nota1']:.2f} | Nota 2: {aluno['nota2']:.2f} | Nota 3: {aluno['nota3']:.2f} | Média: {aluno['media']:.2f}")
-      
+    elif opcao == 3:
+      if len(lista) == 0:
+        print("Não há aluno registrado")
+      else:
+        print("\nAlunos aprovados\n")
+        for aluno in lista:
+          if aluno['media'] >= 7:
+            print(f"Aluno: {aluno['nome']} | Média: {aluno['media']:.2f}")
+    elif opcao == 4:
+      if len(lista) == 0:
+        print("\nNão há aluno registrado\n")
+      else:
+        print("\nAlunos reprovados\n")
+        for aluno in lista:
+          if aluno['media'] < 7:
+            print(f"Aluno: {aluno['nome']} | Média: {aluno['media']:.2f}")
+    elif opcao == 5:
+      if opcao == 5:
+        print("\nSaindo do programa")
+        break
+      else:
+        print("Inválido")
