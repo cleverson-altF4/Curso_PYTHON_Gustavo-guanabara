@@ -20,4 +20,4 @@ print("   Ranking   ")
 ranking = sorted(jogador.items(), key=itemgetter(1), reverse=True)
 
 for posicao, valor in enumerate(ranking):
-    print(f"{posicao}º lugar {valor}")
+    print(f"{posicao + 1}º lugar {valor}")
