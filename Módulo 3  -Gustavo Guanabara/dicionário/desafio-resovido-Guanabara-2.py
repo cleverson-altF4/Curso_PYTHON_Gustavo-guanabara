@@ -35,15 +35,15 @@ print("  Lista de jogadores   ")
 
 for i in ranking:
     if i[1] == 1:
-        print(f"Jogador {i[0]} tirou 1")
+        print(f"{i[0]} tirou 1")
     elif i[1] == 2:
-        print(f"Jogador {i[0]} tirou 2")
+        print(f"{i[0]} tirou 2")
     elif i[1] == 3:
-        print(f"Jogador {i[0]} tirou 3")
+        print(f"{i[0]} tirou 3")
     elif i[1] == 4:
-        print(f"Jogador {i[0]} tirou 4")
+        print(f"{i[0]} tirou 4")
     elif i[1] == 5:
-        print(f"JOgador {i[0]} tirou 5")
+        print(f"{i[0]} tirou 5")
     elif i[1] == 6:
         print(emoji.emojize(f"O vencedor foi o {i[0]} :trophy:", language='alias'))
     else:
