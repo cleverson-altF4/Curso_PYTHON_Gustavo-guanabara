@@ -9,31 +9,28 @@
 #Mostre os dados na tela
 
 from datetime import datetime
-print("-"*30)
-print("      Cadastro de alunos     ")
-print("-"*30)
+
+print("-"*35)
+print("    Cadastro      ")
+
+
 cadastro = {}
+cadastro['nome'] = str(input("Nome da pessoa: ")).strip()
+cadastro['idade'] = int(input("Idade: "))
+cadastro['cidade'] = str(input("Cidade: ")).strip()
 
-cadastro['nome'] = str(input("Digite seu nome: ")).strip()
-cadastro['idade'] = int(input("Digite a sua idade: "))
-cadastro['cidade'] = str(input("Qual é a sua cidade: "))
+print("-"*35)
+print("    Dados do cadastro     ")
 
-print("-"*30)
-print("Dados do cadastro")
-
-
-for chaves, valores in cadastro.items():
-    if chaves == 'nome' or chaves == 'idade':
-        print(f"{chaves} : {valores}")
-
-ano_atual = datetime.now().year
-
-for chaves, valores in cadastro.items():
+for keys, valores in cadastro.items():
+    if keys == 'nome' or keys == 'idade':
+        print(f"{keys}: {valores}")
     
-    if chaves == 'idade':
-        data_nascimento = ano_atual - valores
+data_atual = datetime.now().year
+
+for keys, valores in cadastro.items():
+    
+    if keys == 'idade':
+        data_nascimento = (data_atual - valores) - 1
         print(f"Data de nascimento: {data_nascimento}")
-        
-
-
 
