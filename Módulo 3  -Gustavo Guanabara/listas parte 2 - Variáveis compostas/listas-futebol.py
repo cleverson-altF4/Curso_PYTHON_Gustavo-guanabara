@@ -7,7 +7,7 @@
 
 tabela = []
 inicio = 0
-quantidade = 20 # 20 times
+quantidade = int(input("Deseja selecionar quantos times? "))  # 20 times
 print("-"*40)
 print("       Campeonato Brasileiro      ")
 print("-"*40)
