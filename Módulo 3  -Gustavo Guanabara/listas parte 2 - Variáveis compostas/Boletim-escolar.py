@@ -1,49 +1,59 @@
-ficha = []
+boletim = []
 
-print("-"*50)
-print("-------- Boletim com listas compostas --------")
+print("   Boletim Escolar   ")
 
 while True:
-    nome = str(input("Nome: ")).strip()
-    nota_1 = float(input("Nota 1: "))
-    nota_2 = float(input("Nota 2: "))
-    media = (nota_1 + nota_2) / 2
-
-    ficha.append([nome, [nota_1, nota_2], media])
-
+    nome = input("Digite o nome do aluno: ").strip()
+    primeiro_bimestre = float(input("Primeiro bimestre: "))
+    segundo_bimestre = float(input("Segundo bimestre: "))
+    terceiro_bimestre = float(input("Terceiro bimestre: "))
+    quarto_bimestre = float(input("Quarto bimestre: "))
+    
+    media = round((primeiro_bimestre + segundo_bimestre + terceiro_bimestre + quarto_bimestre) / 4, 2)
+    
+    aluno = {
+        'Nome': nome,
+        'Notas': [primeiro_bimestre, segundo_bimestre, terceiro_bimestre, quarto_bimestre],
+        'Media': media,
+        
+    }    
+    
+    boletim.append(aluno)
+    
+    
     continuar = ''
     while continuar not in ('S', 'N'):
-        continuar = str(input("Deseja continuar? [Sim/Não]: ")).strip().upper()
+        continuar = str(input("Deseja continuar? [Sim ou Nao]: ")).strip().upper()
         if continuar == '':
-            print("Espaço está em branco")
+            print("\nEspaço em branco. digite novamente\n")
+            
         else:
             continuar = continuar[0]
-
     if continuar == 'N':
         break
-
-print("-"*50)
-print(f"{'Nº':<4}{'Nome':<10}{'Média':>15}")
-
-for i, aluno in enumerate(ficha):
-    print(f"{i+1:<4}{aluno[0]:<10}{aluno[2]:>15.1f}")
-
-print("-"*50)
-
-while True:
-    operacao = input("Mostrar notas de qual aluno? [999 interrompe]: ")
-
-    if not operacao.isnumeric():
-        print("Digite apenas números")
-        continue
     
-    operacao = int(operacao)
+print("    Resultado   ")
+
+for aluno in boletim:
+    print(f"Aluno: {aluno['Nome']}")
+    print(f"Média: {aluno['Media']:.2f}")
     
-    if operacao == 999:
-        print("Finalizando...")
-        break
-    
-    if operacao >= 1 and operacao <= len(ficha):
-        print(f"Aluno(a): {ficha[operacao - 1][0]} | Notas: {ficha[operacao - 1][1]}")
+    if aluno['Media'] >= 12:
+        print("Situação: Aprovado")
     else:
-        print("Não foi encontrado nenhum aluno na lista")
+        faltou = 12 - aluno['Media']
+        print(f"Situação:(faltou: {faltou:.2f} pontos)")
+    
+    print("_" * 30) 
+    
+    
+print("    Lista de alunos Aprovados/Reprovados   ")
+for i, total in enumerate(boletim):
+    if total['Media'] >= 12:
+       print(f"Aprovados: {total['Nome']}")
+    else:
+        print(f"Reprovados: {total['Nome']}")
+
+    
+        
+
