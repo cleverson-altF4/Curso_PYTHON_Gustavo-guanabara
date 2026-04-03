@@ -52,8 +52,6 @@ while True:
         
         for posicao, gols in enumerate(time[busca - 1]['gols']):
             
-            print(f"Na {posicao + 1}° partida {time[busca - 1]['Nome']} fez {gols} gols")
+            print(f"No jogo {posicao + 1} o jogador {time[busca - 1]['Nome']} fez {gols} gols")
         print("-"*45)
-
-
-    
+        
