@@ -1,57 +1,57 @@
-
 time = []
+
 while True:
-    partidas = []
     jogador = {}
-    jogador.clear()
-    jogador['Nome'] = str(input("Nome do jogador? ")).strip()
-    total = int(input(f"Quantas partidas {jogador['Nome']} fez? "))
+    partida = []
+    jogador['Nome']= str(input("Nome do jogador? ")).strip()
+    total = int(input(f"Quantos partidas {jogador['Nome']} fez? "))
     
-    for contador in range(0, total):
-        partidas.append(int(input(f"Quantos gols {jogador['Nome']} fez? ")))   
-         
-    jogador['gols'] = partidas[:] 
-    jogador['total'] = sum(partidas)
+    
+    for i in range(0, total):
+        partida.append(int(input(f"Quantos gols {jogador['Nome']} fez? ")))
+        
+    jogador['gols'] = partida[:]
+    jogador['total de gols'] = sum(partida)
+    
     time.append(jogador.copy())
     
     while True:
-        resposta = str(input("Deseja continuar? S/N: ")).upper()[0]
+        resposta = str(input("Deseja continuar? [Sim ou Não]: ")).upper()[0]
         if resposta in 'SN':
             break
-        else:
-            print("Reponda corretamente")
+        print("Digite corretamente [Sim ou Não]")
     if resposta == 'N':
         break
+    
+    
+    print('-'*40)
 
-print("-" * 45)
-print(f"{'cod':>3} ", end='')
-for i in jogador.keys():
-    print(f"{i:<18} ", end='')
+print(f"{'Cod':>3} ",end='')
+for posicao in jogador.keys():
+    print(f"{posicao:<15}",end='')
 print()
-print("-" * 45)
+print('-'*40)
 for keys, valor in enumerate(time):
-    print(f"{keys+1:>3} ", end='')
+    print(f"{keys + 1:>3}",end='') 
     for dados in valor.values():
-        print(f"{str(dados):<18} ", end='')
+        print(f" {str(dados):<15}", end='')    
     print()
     
-
     
-#Qual jogador você quer ver os dados?
+#Dados para pegar a posição de cada jogador
+print('-'*40)
+
 while True:
-    busca = int(input("Mostrar dados de qual jogador? [999] cancela: ")) 
+    busca = int(input("Deseja coletar dados de qual jogador? [999 cancela]: "))
+    
     if busca == 999:
         break
     
     if busca < 1 or busca > len(time):
-        print("Não há jogadores acima da busca")
+        print(f"A busca {busca} não está na lista")
     else:
-        print("\nRelatório\n")
-
-        print(f"Jogadores {time[busca - 1]['Nome']}")        
+        print(f"\nRelatório completo\n")
+        print(f"Busca por {time[busca-1]['Nome']}")
         
-        for posicao, gols in enumerate(time[busca - 1]['gols']):
-            
-            print(f"No jogo {posicao + 1} o jogador {time[busca - 1]['Nome']} fez {gols} gols")
-        print("-"*45)
-        
+        for i, relatorio in enumerate(time[busca-1]['gols']):
+            print(f"No {i+1}° jogo {relatorio}")
