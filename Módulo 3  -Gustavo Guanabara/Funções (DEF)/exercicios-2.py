@@ -15,9 +15,7 @@ while True:
         break
     
     lista_numero.append(numero)
-    
-    
-    
+      
     
 for numero in range(len(lista_numero)):
     if numero % 2 == 0:
