@@ -7,17 +7,44 @@
 #Uma contagem personalizado 
 from time import sleep
 
-inicio = int(input("Inicio: "))
-fim = int(input("Fim: "))
-passo = int(input("Passo: "))
-
+def linha():
+    print("-"*55)
+    
 
 def contador(inicio, fim, passo):
-    for i in range(inicio, fim, passo):
-        print(f"{i}",end=' ')
-        sleep(0.5)
+    cont = inicio
+    if inicio < fim:
         
+        if passo < 0:
+            passo *= -1
+            
+        if passo == 0:
+            passo += 1
+            
+        while cont <= fim:
+            print(cont, end=' ', flush=True)
+            sleep(0.3)
+            cont += passo
         
+        print(f"   (Iniciou com {inicio} até {fim} de {passo} a {passo})")
+        linha()
+    else:
+        cont = inicio
         
+        while cont >= fim:
+            print(cont, end=' ', flush=True)
+            sleep(0.3)
+            cont -= passo
+        print(f"   (Iniciou com {inicio} até {fim} de {passo} a {passo})")
+        linha()
+    
         
-contador(inicio, fim, passo)
+linha()
+contador(1,10,1)
+contador(10,0,2)
+
+inicial = int(input("início: "))
+final = int(input("Fim:      "))
+passando = int(input("Passo: "))
+linha()
+contador(inicial,final,passando)
