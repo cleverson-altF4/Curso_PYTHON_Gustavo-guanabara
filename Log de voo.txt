@@ -1,0 +1,1 @@
+{"nome": "Drone-01", "altitude": 70, "bateria": 60, "Em voo": true}
