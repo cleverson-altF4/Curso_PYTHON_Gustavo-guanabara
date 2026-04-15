@@ -12,36 +12,35 @@ def linha():
     
     
 def contar(inicio, fim, passo):
-    contar_numero = inicio
+    contagem = inicio
     
     if inicio < fim:
-        
+        if passo == 0:
+            passo += 1
+            
         if passo < 0:
             passo *= -1
             
-        if passo == 0:
-            passo += 1
         
-        while contar_numero < fim:
-            print(contar_numero, end= ' ')
-            contar_numero += passo
-        print(f"-------- Início: {inicio} até {fim} de {passo} a {passo}")
+        while contagem < fim:
+            print(contagem, end=' ', flush=True)
+            contagem += passo
+            sleep(0.5)
+        print(f"------ início: {inicio} até {fim} de {passo} à {passo}")
     else:
-        contar_numero = inicio
+        contagem = inicio
         
-        while contar_numero >= fim:
-            print(contar_numero, end=' ')
-            contar_numero -= passo
-        print(f"-------- Início: {inicio} até {fim} de {passo} a {passo}")
+        while contagem >= fim:
+            print(contagem, end=' ', flush=True)
+            contagem -= passo
+        print(f"------ início: {inicio} até {fim} de {passo} à {passo}")
             
-        
-        
-contar(10,0,1)
+
 contar(1,10,1)
-linha()
-numero_inicial = int(input("Digite um número: "))
-numero_final = int(input("Até que número: "))
-numero_passo = int(input("Digite um passo"))
+contar(10,1,2)
 
-contar(numero_inicial, numero_final, numero_passo)
+inicial = int(input("Digite 1 número: "))
+final = int(input("Digite até qual número final: "))
+passando = int(input("Digite um número que passa de quanto e quanto: "))
 
+contar(inicial, final, passando)
