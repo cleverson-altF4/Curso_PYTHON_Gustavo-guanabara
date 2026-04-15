@@ -10,9 +10,10 @@ from time import sleep
 def linha():
     print("-"*55)
     
-
-def contador(inicio, fim, passo):
-    cont = inicio
+    
+def contar(inicio, fim, passo):
+    contar_numero = inicio
+    
     if inicio < fim:
         
         if passo < 0:
@@ -20,31 +21,27 @@ def contador(inicio, fim, passo):
             
         if passo == 0:
             passo += 1
-            
-        while cont <= fim:
-            print(cont, end=' ', flush=True)
-            sleep(0.3)
-            cont += passo
         
-        print(f"   (Iniciou com {inicio} até {fim} de {passo} a {passo})")
-        linha()
+        while contar_numero < fim:
+            print(contar_numero, end= ' ')
+            contar_numero += passo
+        print(f"-------- Início: {inicio} até {fim} de {passo} a {passo}")
     else:
-        cont = inicio
+        contar_numero = inicio
         
-        while cont >= fim:
-            print(cont, end=' ', flush=True)
-            sleep(0.3)
-            cont -= passo
-        print(f"   (Iniciou com {inicio} até {fim} de {passo} a {passo})")
-        linha()
-    
+        while contar_numero >= fim:
+            print(contar_numero, end=' ')
+            contar_numero -= passo
+        print(f"-------- Início: {inicio} até {fim} de {passo} a {passo}")
+            
         
+        
+contar(10,0,1)
+contar(1,10,1)
 linha()
-contador(1,10,1)
-contador(10,0,2)
+numero_inicial = int(input("Digite um número: "))
+numero_final = int(input("Até que número: "))
+numero_passo = int(input("Digite um passo"))
 
-inicial = int(input("início: "))
-final = int(input("Fim:      "))
-passando = int(input("Passo: "))
-linha()
-contador(inicial,final,passando)
+contar(numero_inicial, numero_final, numero_passo)
+
