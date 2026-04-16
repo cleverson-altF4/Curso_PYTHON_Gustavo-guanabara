@@ -10,37 +10,38 @@ from time import sleep
 def linha():
     print("-"*55)
     
-    
-def contar(inicio, fim, passo):
-    contagem = inicio
-    
-    if inicio < fim:
-        if passo == 0:
-            passo += 1
-            
-        if passo < 0:
-            passo *= -1
-            
+def contador(inicio, fim, passo):
+    if passo < 0:
+        passo *= -1 #Torna o passo em positivo
         
-        while contagem < fim:
-            print(contagem, end=' ', flush=True)
-            contagem += passo
-            sleep(0.5)
-        print(f"------ início: {inicio} até {fim} de {passo} à {passo}")
+    if passo == 0:
+            passo = 1
+            
+    linha()
+    print(f"contagem {inicio} até o {fim} de {passo} em {passo}\n")
+     
+    if inicio < fim:   
+        contador = inicio
+        
+        while contador <= fim:
+            print(contador, end=' ', flush=True)
+            sleep(0.3)
+            contador += passo
+        print("Fim")
     else:
-        contagem = inicio
+        contador = inicio
+        while contador >= fim:
+            print(contador, end=' ',flush=True)
+            sleep(0.3)
+            contador -= passo
+        print("Fim")
         
-        while contagem >= fim:
-            print(contagem, end=' ', flush=True)
-            contagem -= passo
-        print(f"------ início: {inicio} até {fim} de {passo} à {passo}")
-            
 
-contar(1,10,1)
-contar(10,1,2)
+contador(1,10,1)
+contador(10,0,2)
+print("\nMeu código personalizado\n")
 
-inicial = int(input("Digite 1 número: "))
-final = int(input("Digite até qual número final: "))
-passando = int(input("Digite um número que passa de quanto e quanto: "))
-
-contar(inicial, final, passando)
+inicial = int(input("Digite um número: "))
+fim = int(input("Digite o número final: "))
+passando = int(input("Digite de quanto em quanto: "))
+contador(inicial, fim, passando)
