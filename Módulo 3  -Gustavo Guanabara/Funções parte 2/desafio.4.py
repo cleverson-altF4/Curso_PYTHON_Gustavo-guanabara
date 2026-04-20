@@ -1,5 +1,6 @@
-def leiaInt(msg, valor = 0, validacao = False):
-    
+def leiaInt(msg):
+    valor = 0
+    validacao = False
     while True:
         n = str(input(msg))
         
