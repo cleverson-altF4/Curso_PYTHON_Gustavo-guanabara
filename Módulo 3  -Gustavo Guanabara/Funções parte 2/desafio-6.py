@@ -7,8 +7,8 @@ cores = (
 )
 
 def ajuda(com):
-    titulo(f"Acessando o manual do comando {com}", 1)
-    print(cores[2])
+    titulo(f"Acessando o manual do comando {com}",1)
+    print(cores[1])
     help(com)
     print(cores[3])
 
