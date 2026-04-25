@@ -1,29 +1,33 @@
-from time import sleep
+#interactive Help()
+cores = (
+    "\033[33m", #posição 0 - amarelo
+    "\033[37m", #posição 1 - Branco
+    "\033[31m", #posição 2 - Vermelho
+    "\033[m",   #posição 3 - apaga a cor
+)
 
-cores = ['\033[31m', '\033[32m', '\033[m']
-fundo_verde = ['\033[42m']
-
-def titulo(msg, cor=0):
-    tamanho = len(msg) + 4
-    print(cores[cor], end='')
-    print("-"* tamanho) 
-    print(f"  {msg}  ")
-    print("-"* tamanho) 
-    print(cores[2]) 
-    sleep(1)  
-    
-def ajuda(com_ajuda):
-    titulo(f"Acessando o manual do comando {com_ajuda}", cor=1 )
-    print(fundo_verde[0], end='')
-    help(com_ajuda)
+def ajuda(com):
+    titulo(f"Acessando o manual do comando {com}", 1)
     print(cores[2])
+    help(com)
+    print(cores[3])
+
     
+def titulo(msg, cor=0):
+    print(cores[cor], end='')
+    tamanho = len(msg) + 4
+    print("-"*tamanho) 
+    print(  msg)
+    print("-"*tamanho)
+    print(cores[3], end='') 
+
+#Programa principal
 while True:
-   titulo("SISTEMA DE AJUDA PYHELP", cor=0)
-   
-   usuario = input(">>> ").strip()
-   if usuario.lower() == 'fim':
-       titulo("Projeto concluído", cor=1)
-       break
-   else:
-       ajuda(usuario)
+    titulo("Sistema de ajuda PYHELP",0)
+    comando = str(input(">>> ")).strip()
+    if comando.upper() == 'FIM':
+        break
+    else:
+        ajuda(comando)
+        
+titulo("Até logo", 2)
