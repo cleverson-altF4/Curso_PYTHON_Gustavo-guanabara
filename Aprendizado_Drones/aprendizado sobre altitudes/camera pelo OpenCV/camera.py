@@ -41,4 +41,4 @@ while True:
     
     
 camera.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() #sem isso a câmera fica travada
