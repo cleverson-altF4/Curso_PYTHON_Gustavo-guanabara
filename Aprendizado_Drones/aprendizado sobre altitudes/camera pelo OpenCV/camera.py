@@ -33,7 +33,7 @@ while True:
 
     
     
-    cv2.imshow("HUD CÂMERA", frame)
+    cv2.imshow("HUD CAMERA", frame)
     
     
     if cv2.waitKey(1) == ord('q'):
