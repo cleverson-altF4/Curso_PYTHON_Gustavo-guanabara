@@ -15,7 +15,7 @@ def dobro(preco=0):
 
 def metade(preco):
     resultado = preco / 2
-    return resultado
+    return resultado 
 
 
 def dinheiro(preco=0, cedula="R$"):
