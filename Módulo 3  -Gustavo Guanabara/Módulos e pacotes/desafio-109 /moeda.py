@@ -1,19 +1,19 @@
-def aumentar(preco=0, taxa=0, formato= False):
+def aumentar(preco=0, taxa=0):
     resultado = preco + (preco * taxa / 100)
-    return resultado if formato is False else moeda(resultado)
+    return resultado 
 
 
-def diminuir(preco=0, taxa=0, formato= False):
+def diminuir(preco=0, taxa=0):
     resultado = preco - (preco * taxa / 100)
     return resultado
 
 
-def dobro(preco=0, formato = False):
+def dobro(preco=0):
     resultado = preco * 2
     return resultado
 
 
-def metade(preco=0, Formato = False):
+def metade(preco=0):
     resultado = preco / 2
     return resultado 
 
