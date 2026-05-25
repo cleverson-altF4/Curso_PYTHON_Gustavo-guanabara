@@ -33,6 +33,5 @@ def menu(lista):
     opc = leiaInt('Sua opção: ')
     return opc
     
-    
         
     
