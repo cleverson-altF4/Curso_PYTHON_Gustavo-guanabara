@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ccaafef-fe5b-4e39-b925-621617c146fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO /aula-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO /aula-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,61 +17,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000000022" />
-      <entry key="S2" value="1.0002169274133648" />
-      <entry key="S5" value="1.0342394584035342" />
-      <entry key="S10" value="1.185477367352358" />
-      <entry key="S30" value="1.871947887350913" />
-      <entry key="S60" value="4.212067875037498" />
-      <entry key="M2" value="11.181851916482836" />
-      <entry key="M5" value="29.015754930076618" />
-      <entry key="M10" value="43.63711190708922" />
-      <entry key="M15" value="50.55508110548223" />
-      <entry key="M30" value="58.898272015381245" />
-      <entry key="H1" value="63.70546505965335" />
-      <entry key="H2" value="66.28853403544339" />
-      <entry key="H4" value="67.62778696354037" />
-      <entry key="D1" value="68.76897140906357" />
-      <entry key="W1" value="68.96693844599213" />
+      <entry key="MS100" value="3.212416615695325E-116" />
+      <entry key="MS500" value="7.968312772839994E-24" />
+      <entry key="S2" value="1.6801249964274959E-6" />
+      <entry key="S5" value="0.004899329373061697" />
+      <entry key="S10" value="0.0699952100959317" />
+      <entry key="S30" value="0.4134767908023024" />
+      <entry key="S60" value="0.7553993394807977" />
+      <entry key="M2" value="2.6362363440301557" />
+      <entry key="M5" value="14.997797893859522" />
+      <entry key="M10" value="31.357157722989196" />
+      <entry key="M15" value="40.70053460660166" />
+      <entry key="M30" value="53.198198991900554" />
+      <entry key="H1" value="60.97370531755473" />
+      <entry key="H2" value="65.31796029935077" />
+      <entry key="H4" value="67.61507452516159" />
+      <entry key="D1" value="69.59626592730062" />
+      <entry key="W1" value="69.94216875274124" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="7.325700105107965E-70" />
-      <entry key="S2" value="5.2029869783419365E-18" />
-      <entry key="S5" value="1.2501524068885485E-7" />
-      <entry key="S10" value="4.0459244182720254E-4" />
-      <entry key="S30" value="0.11964942183974718" />
-      <entry key="S60" value="0.613341237176288" />
-      <entry key="M2" value="1.6957507750051375" />
-      <entry key="M5" value="4.05625763871356" />
-      <entry key="M10" value="5.894796702668132" />
-      <entry key="M15" value="6.750322198380521" />
-      <entry key="M30" value="7.772970619070718" />
-      <entry key="H1" value="8.358290226608544" />
-      <entry key="H2" value="8.67173410367684" />
-      <entry key="H4" value="8.833966902236002" />
-      <entry key="D1" value="8.972059781864495" />
-      <entry key="W1" value="8.996001921638412" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000060171009832" />
+      <entry key="S5" value="1.0081612168973768" />
+      <entry key="S10" value="1.0903394537143363" />
+      <entry key="S30" value="1.4487899639022142" />
+      <entry key="S60" value="1.68637086778315" />
+      <entry key="M2" value="2.0967284410607254" />
+      <entry key="M5" value="3.8916686088565395" />
+      <entry key="M10" value="6.0674296030722985" />
+      <entry key="M15" value="7.2785067212101024" />
+      <entry key="M30" value="8.877410819257408" />
+      <entry key="H1" value="9.862985136800532" />
+      <entry key="H2" value="10.41109628420353" />
+      <entry key="H4" value="10.700252868795753" />
+      <entry key="D1" value="10.949289397577939" />
+      <entry key="W1" value="10.992736963663933" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.014884968719436526" />
-      <entry key="MS500" value="0.43107177250879886" />
-      <entry key="S2" value="0.8104577212455407" />
-      <entry key="S5" value="0.95060599385017" />
-      <entry key="S10" value="1.136476805066988" />
-      <entry key="S30" value="1.9517177416144469" />
-      <entry key="S60" value="4.75866803537366" />
-      <entry key="M2" value="12.78705427748309" />
-      <entry key="M5" value="32.982175232938026" />
-      <entry key="M10" value="49.465362997015006" />
-      <entry key="M15" value="57.25423844779836" />
-      <entry key="M30" value="66.64156470799789" />
-      <entry key="H1" value="72.04773761224355" />
-      <entry key="H2" value="74.95194277901787" />
-      <entry key="H4" value="76.45750915195092" />
-      <entry key="D1" value="77.74031209019647" />
-      <entry key="W1" value="77.96283735030539" />
+      <entry key="MS100" value="0.0019262357509635913" />
+      <entry key="MS500" value="0.2863794744949392" />
+      <entry key="S2" value="0.7315382594431302" />
+      <entry key="S5" value="0.8912779973920899" />
+      <entry key="S10" value="1.0719776344982355" />
+      <entry key="S30" value="1.7899206370886918" />
+      <entry key="S60" value="2.389835963048237" />
+      <entry key="M2" value="4.688238697737009" />
+      <entry key="M5" value="18.832551390071366" />
+      <entry key="M10" value="37.37132258668686" />
+      <entry key="M15" value="47.93417264149347" />
+      <entry key="M30" value="62.04694186209025" />
+      <entry key="H1" value="70.82042259768235" />
+      <entry key="H2" value="75.72038311182821" />
+      <entry key="H4" value="78.31084810061698" />
+      <entry key="D1" value="80.54478829187953" />
+      <entry key="W1" value="80.93479562945228" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -83,25 +83,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.aula-2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.aula-2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="aula-2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="ENV_FILES" value="" />
@@ -145,7 +145,8 @@
       <option name="presentableId" value="Default" />
       <updated>1786149765293</updated>
       <workItem from="1786149769974" duration="1099000" />
-      <workItem from="1786150915258" duration="997000" />
+      <workItem from="1786150915258" duration="1163000" />
+      <workItem from="1786217483382" duration="7000" />
     </task>
     <servers />
   </component>
@@ -153,6 +154,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$aula_2.coverage" NAME="aula-2 Coverage Results" MODIFIED="1786151665365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
+    <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$aula_2.coverage" NAME="aula-2 Coverage Results" MODIFIED="1786151977287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
   </component>
 </project>
