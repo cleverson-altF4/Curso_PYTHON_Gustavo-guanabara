@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ccaafef-fe5b-4e39-b925-621617c146fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO /Retangulo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO /funcionario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO /primeira-classe.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO /primeira-classe.py" afterDir="false" />
-    </list>
+    <list default="true" id="0ccaafef-fe5b-4e39-b925-621617c146fd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +138,7 @@
       <workItem from="1786224980174" duration="3251000" />
       <workItem from="1786228421893" duration="28000" />
       <workItem from="1786228612495" duration="1240000" />
-      <workItem from="1786477723397" duration="7216000" />
+      <workItem from="1786477723397" duration="7253000" />
     </task>
     <servers />
   </component>
