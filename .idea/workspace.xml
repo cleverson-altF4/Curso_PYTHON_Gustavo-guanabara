@@ -12,66 +12,73 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="3.212416615695325E-116" />
-      <entry key="MS500" value="7.968312772839994E-24" />
-      <entry key="S2" value="1.6801249964274959E-6" />
-      <entry key="S5" value="0.004899329373061697" />
-      <entry key="S10" value="0.0699952100959317" />
-      <entry key="S30" value="0.4134767908023024" />
-      <entry key="S60" value="0.7553993394807977" />
-      <entry key="M2" value="2.6362363440301557" />
-      <entry key="M5" value="14.997797893859522" />
-      <entry key="M10" value="31.357157722989196" />
-      <entry key="M15" value="40.70053460660166" />
-      <entry key="M30" value="53.198198991900554" />
-      <entry key="H1" value="60.97370531755473" />
-      <entry key="H2" value="65.31796029935077" />
-      <entry key="H4" value="67.61507452516159" />
-      <entry key="D1" value="69.59626592730062" />
-      <entry key="W1" value="69.94216875274124" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000060171009832" />
-      <entry key="S5" value="1.0081612168973768" />
-      <entry key="S10" value="1.0903394537143363" />
-      <entry key="S30" value="1.4487899639022142" />
-      <entry key="S60" value="1.68637086778315" />
-      <entry key="M2" value="2.0967284410607254" />
-      <entry key="M5" value="3.8916686088565395" />
-      <entry key="M10" value="6.0674296030722985" />
-      <entry key="M15" value="7.2785067212101024" />
-      <entry key="M30" value="8.877410819257408" />
-      <entry key="H1" value="9.862985136800532" />
-      <entry key="H2" value="10.41109628420353" />
-      <entry key="H4" value="10.700252868795753" />
-      <entry key="D1" value="10.949289397577939" />
-      <entry key="W1" value="10.992736963663933" />
+      <entry key="S2" value="1.0000000056091043" />
+      <entry key="S5" value="1.0005464616814186" />
+      <entry key="S10" value="1.0414371512020901" />
+      <entry key="S30" value="3.0201923654132603" />
+      <entry key="S60" value="9.112891402271154" />
+      <entry key="M2" value="22.50716575845421" />
+      <entry key="M5" value="53.36399091211514" />
+      <entry key="M10" value="89.3779277211805" />
+      <entry key="M15" value="118.34965217549828" />
+      <entry key="M30" value="175.92270630911568" />
+      <entry key="H1" value="227.6903079049434" />
+      <entry key="H2" value="263.61279252857366" />
+      <entry key="H4" value="284.95832121031725" />
+      <entry key="D1" value="304.78977516184625" />
+      <entry key="W1" value="308.3933363734626" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0882603355478793E-250" />
+      <entry key="MS500" value="1.0259870509907753E-50" />
+      <entry key="S2" value="4.148511444143686E-13" />
+      <entry key="S5" value="1.6912492118433616E-5" />
+      <entry key="S10" value="0.007048729964799349" />
+      <entry key="S30" value="0.5139137469959384" />
+      <entry key="S60" value="1.6143754050813657" />
+      <entry key="M2" value="3.3197072931779004" />
+      <entry key="M5" value="7.241749933817637" />
+      <entry key="M10" value="12.391838509383755" />
+      <entry key="M15" value="16.769290345754495" />
+      <entry key="M30" value="25.612728047671663" />
+      <entry key="H1" value="33.57108525675771" />
+      <entry key="H2" value="39.07419370522375" />
+      <entry key="H4" value="42.33522551678572" />
+      <entry key="D1" value="45.35883890062734" />
+      <entry key="W1" value="45.90762939355945" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0019262357509635913" />
-      <entry key="MS500" value="0.2863794744949392" />
-      <entry key="S2" value="0.7315382594431302" />
-      <entry key="S5" value="0.8912779973920899" />
-      <entry key="S10" value="1.0719776344982355" />
-      <entry key="S30" value="1.7899206370886918" />
-      <entry key="S60" value="2.389835963048237" />
-      <entry key="M2" value="4.688238697737009" />
-      <entry key="M5" value="18.832551390071366" />
-      <entry key="M10" value="37.37132258668686" />
-      <entry key="M15" value="47.93417264149347" />
-      <entry key="M30" value="62.04694186209025" />
-      <entry key="H1" value="70.82042259768235" />
-      <entry key="H2" value="75.72038311182821" />
-      <entry key="H4" value="78.31084810061698" />
-      <entry key="D1" value="80.54478829187953" />
-      <entry key="W1" value="80.93479562945228" />
+      <entry key="MS100" value="4.555825153988317E-4" />
+      <entry key="MS500" value="0.21464135910943843" />
+      <entry key="S2" value="0.6806570637338297" />
+      <entry key="S5" value="0.8579287084693975" />
+      <entry key="S10" value="0.9731087830404661" />
+      <entry key="S30" value="3.4788410865342883" />
+      <entry key="S60" value="10.66432504242472" />
+      <entry key="M2" value="25.761341532971116" />
+      <entry key="M5" value="60.54485934958362" />
+      <entry key="M10" value="101.71489563544688" />
+      <entry key="M15" value="135.06665913737828" />
+      <entry key="M30" value="201.49133590251566" />
+      <entry key="H1" value="261.2304517652489" />
+      <entry key="H2" value="302.66828361048283" />
+      <entry key="H4" value="327.2832134548553" />
+      <entry key="D1" value="350.1467377446558" />
+      <entry key="W1" value="354.30069369346995" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -79,6 +86,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="3Hbvp6Up3q7o2QO9jwAHXDgKen0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -86,6 +96,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.aula-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.livros.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
@@ -94,16 +106,18 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.python.group.settings&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
-    <configuration name="aula-2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="livros" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,7 +134,7 @@
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO /aula-2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO /livros.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,6 +161,9 @@
       <workItem from="1786149769974" duration="1099000" />
       <workItem from="1786150915258" duration="1163000" />
       <workItem from="1786217483382" duration="7000" />
+      <workItem from="1786224980174" duration="3251000" />
+      <workItem from="1786228421893" duration="28000" />
+      <workItem from="1786228612495" duration="1240000" />
     </task>
     <servers />
   </component>
@@ -154,6 +171,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$aula_2.coverage" NAME="aula-2 Coverage Results" MODIFIED="1786151977287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
+    <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$aula_2.coverage" NAME="aula-2 Coverage Results" MODIFIED="1786228430751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
+    <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$livros.coverage" NAME="livros Coverage Results" MODIFIED="1786228614187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
+    <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$aula_3.coverage" NAME="aula-3 Coverage Results" MODIFIED="1786226412514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
   </component>
 </project>
