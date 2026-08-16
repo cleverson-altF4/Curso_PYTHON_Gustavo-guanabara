@@ -8,13 +8,17 @@ class ContaBancaria:
 
     def sacar(self, valor):
         if self.saldo >= valor:
-            print("Saque realizado com sucesso!")
-
-        if self.saldo <= valor:
             print("Saldo insuficiente")
+        else:
+            self.saldo -= valor
+            print(f"O valor sacado foi de R${valor:.2f}")
 
 
-conta1 = ContaBancaria("Cleviso", 1500)
+    def __str__(self):
+        return f"O valor Total {self.saldo}"
+
+
+conta1 = ContaBancaria("Clevison", 1500)
 conta1.depositar(200)
-conta1.sacar(1000)
-print()
+conta1.sacar(10000)
+print(conta1)
