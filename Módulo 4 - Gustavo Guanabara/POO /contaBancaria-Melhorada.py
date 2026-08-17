@@ -1,24 +1,30 @@
 class ContaBancaria:
-    def __init__(self, titular, saldo):
+    """
+    Criando uma conta bancária simples usando classes
+    """
+    def __init__(self, id, titular = "", saldo=0):
+        self.id = id
         self.titular = titular
-        self.saldo = saldo
+        self.Saldo = saldo
+        print(f"Conta {self.id} criada com sucesso! | Saldo da conta: R$: {self.Saldo:.2f}")
 
     def depositar(self, valor):
-        self.saldo += valor
+        self.Saldo += valor
+        return f"Depósito de R$: {valor:.2f} reais concluído"
 
     def sacar(self, valor):
-        if self.saldo >= valor:
-            print("Saldo insuficiente")
+        if valor >= self.Saldo:
+            print(f"Saque negado no ID: {self.id} no valor de R$: {valor:.2f} reais")
         else:
-            self.saldo -= valor
-            print(f"O valor sacado foi de R${valor:.2f}")
+            self.Saldo -= valor
+            print(f"Saque AUTORIZADO de R$: {valor:.2f} reais")
 
 
     def __str__(self):
-        return f"O valor Total {self.saldo}"
+        return f"Conta: {self.id} | Nome: {self.titular} | Saldo: {self.Saldo:.2f}"
 
 
-conta1 = ContaBancaria("Clevison", 1500)
-conta1.depositar(200)
-conta1.sacar(10000)
-print(conta1)
+
+conta1 = ContaBancaria(1, "Clevison", 3000)
+conta1.sacar(4000)
+print(conta1.__doc__)
