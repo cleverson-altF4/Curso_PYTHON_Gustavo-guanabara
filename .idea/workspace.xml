@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ccaafef-fe5b-4e39-b925-621617c146fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/Rich/rich01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO /contaBancaria-Melhorada.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO /contaBancaria-Melhorada.py" afterDir="false" />
     </list>
@@ -25,61 +26,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000194693" />
-      <entry key="MS500" value="1.0075620564642631" />
-      <entry key="S2" value="1.5864044950580984" />
-      <entry key="S5" value="2.831948960554307" />
-      <entry key="S10" value="4.4941416736627" />
-      <entry key="S30" value="12.827703859798278" />
-      <entry key="S60" value="22.884971189923224" />
-      <entry key="M2" value="37.90302405100865" />
-      <entry key="M5" value="69.75114346429547" />
-      <entry key="M10" value="101.85122674965581" />
-      <entry key="M15" value="125.5510429694737" />
-      <entry key="M30" value="192.3926808408027" />
-      <entry key="H1" value="316.4819358984445" />
-      <entry key="H2" value="472.1627329199215" />
-      <entry key="H4" value="604.6779569782393" />
-      <entry key="D1" value="761.8306661830178" />
-      <entry key="W1" value="794.3894079297055" />
+      <entry key="MS100" value="1.677873328061173E-19" />
+      <entry key="MS500" value="1.7577286617712762E-4" />
+      <entry key="S2" value="0.11596097758706346" />
+      <entry key="S5" value="0.5063878108537347" />
+      <entry key="S10" value="1.0592098669773653" />
+      <entry key="S30" value="2.1698859050509642" />
+      <entry key="S60" value="3.4589652538612863" />
+      <entry key="M2" value="5.53279210669951" />
+      <entry key="M5" value="10.03399621224696" />
+      <entry key="M10" value="26.236016657982844" />
+      <entry key="M15" value="47.74404753213141" />
+      <entry key="M30" value="116.1726162863461" />
+      <entry key="H1" value="245.4639872839952" />
+      <entry key="H2" value="417.72354544371456" />
+      <entry key="H4" value="572.5740636375716" />
+      <entry key="D1" value="764.2827594750812" />
+      <entry key="W1" value="804.9596076014035" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.3604209516533885E-212" />
-      <entry key="MS500" value="5.587242894652332E-43" />
-      <entry key="S2" value="4.3639437092794344E-11" />
-      <entry key="S5" value="1.178776150346264E-4" />
-      <entry key="S10" value="0.018645734321651376" />
-      <entry key="S30" value="0.7733772537687269" />
-      <entry key="S60" value="2.4844533010360594" />
-      <entry key="M2" value="5.62612986589164" />
-      <entry key="M5" value="12.511310759429659" />
-      <entry key="M10" value="18.5399957140874" />
-      <entry key="M15" value="22.804947318475374" />
-      <entry key="M30" value="35.96580490467737" />
-      <entry key="H1" value="60.526207150290546" />
-      <entry key="H2" value="90.1277106408812" />
-      <entry key="H4" value="114.62900135330223" />
-      <entry key="D1" value="143.14308817019008" />
-      <entry key="W1" value="148.9935594365822" />
+      <entry key="MS100" value="1.000000262733987" />
+      <entry key="MS500" value="1.0554933483076903" />
+      <entry key="S2" value="1.7605496997730459" />
+      <entry key="S5" value="2.4188478262909268" />
+      <entry key="S10" value="3.0127676106629324" />
+      <entry key="S30" value="4.023040934747015" />
+      <entry key="S60" value="4.5478876277588025" />
+      <entry key="M2" value="5.026521702225025" />
+      <entry key="M5" value="5.873376525681791" />
+      <entry key="M10" value="8.929339447148315" />
+      <entry key="M15" value="12.93516934089929" />
+      <entry key="M30" value="26.117979014280024" />
+      <entry key="H1" value="51.44649376317893" />
+      <entry key="H2" value="84.3363278749254" />
+      <entry key="H4" value="113.21127762431564" />
+      <entry key="D1" value="148.33926189030535" />
+      <entry key="W1" value="155.72397588980266" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1363212505857864E-9" />
-      <entry key="MS500" value="0.02201322807406979" />
-      <entry key="S2" value="0.8752797485291174" />
-      <entry key="S5" value="2.3919300314813614" />
-      <entry key="S10" value="4.216379944510506" />
-      <entry key="S30" value="13.365531495233144" />
-      <entry key="S60" value="25.14132732410795" />
-      <entry key="M2" value="43.3092654154876" />
-      <entry key="M5" value="82.08232844524012" />
-      <entry key="M10" value="120.26128186594666" />
-      <entry key="M15" value="148.25130021512425" />
-      <entry key="M30" value="228.28106275090494" />
-      <entry key="H1" value="376.94730162063485" />
-      <entry key="H2" value="562.2466182026096" />
-      <entry key="H4" value="719.2794130976504" />
-      <entry key="D1" value="904.9680554519762" />
-      <entry key="W1" value="943.3821204892195" />
+      <entry key="MS100" value="0.0030436125451550875" />
+      <entry key="MS500" value="0.3304018754788682" />
+      <entry key="S2" value="1.3779392582330312" />
+      <entry key="S5" value="2.5828017673394505" />
+      <entry key="S10" value="3.8264071353165785" />
+      <entry key="S30" value="6.067236882708448" />
+      <entry key="S60" value="7.929569688710491" />
+      <entry key="M2" value="10.511760896919089" />
+      <entry key="M5" value="15.87885162244014" />
+      <entry key="M10" value="35.130066177231924" />
+      <entry key="M15" value="60.63752329849068" />
+      <entry key="M30" value="142.24222374130244" />
+      <entry key="H1" value="296.8621637612671" />
+      <entry key="H2" value="502.02042848282315" />
+      <entry key="H4" value="685.7588923539091" />
+      <entry key="D1" value="912.6162387975091" />
+      <entry key="W1" value="960.6827159069251" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -103,6 +104,7 @@
     "Python.funcionario.executor": "Run",
     "Python.livros.executor": "Run",
     "Python.primeira-classe.executor": "Run",
+    "Python.rich01.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -123,7 +125,33 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.contaBancaria-Melhorada">
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Curso_PYTHON_Gustavo-guanabara" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="~/Documentos/GitHub/Curso_PYTHON_Gustavo-guanabara/.venv" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="contaBancaria-Melhorada" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Curso_PYTHON_Gustavo-guanabara" />
       <option name="ENV_FILES" value="" />
@@ -202,7 +230,10 @@
       <workItem from="1786578932217" duration="7000" />
       <workItem from="1786835882833" duration="3327000" />
       <workItem from="1786899282854" duration="480000" />
-      <workItem from="1786926140017" duration="4068000" />
+      <workItem from="1786926140017" duration="4138000" />
+      <workItem from="1787161361011" duration="128000" />
+      <workItem from="1787183487316" duration="351000" />
+      <workItem from="1787183852513" duration="1283000" />
     </task>
     <servers />
   </component>
@@ -214,8 +245,9 @@
     <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$Retangulo.coverage" NAME="Retangulo Coverage Results" MODIFIED="1786482404745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
     <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$aula_2.coverage" NAME="aula-2 Coverage Results" MODIFIED="1786228430751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
     <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$livros.coverage" NAME="livros Coverage Results" MODIFIED="1786228614187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
+    <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$rich01.coverage" NAME="rich01 Coverage Results" MODIFIED="1787185476388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/Rich" />
     <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$aula_3.coverage" NAME="aula-3 Coverage Results" MODIFIED="1786226412514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
-    <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$contaBancaria_Melhorada.coverage" NAME="contaBancaria-Melhorada Coverage Results" MODIFIED="1786930508126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
+    <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$contaBancaria_Melhorada.coverage" NAME="contaBancaria-Melhorada Coverage Results" MODIFIED="1787185321493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
     <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$funcionario.coverage" NAME="funcionario Coverage Results" MODIFIED="1786836425976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
   </component>
 </project>
