@@ -33,5 +33,8 @@ class ContaBancaria:
 
 conta1 = ContaBancaria(1, "Clevison", 3000)
 conta1.sacar(4000)
+conta2 = ContaBancaria(2,"Cu", 1500 )
+conta2.depositar(500)
+print(conta2)
 
-inspect(conta1)
+#inspect(conta2)
