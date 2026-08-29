@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ccaafef-fe5b-4e39-b925-621617c146fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/Desafios-POO/desafio-4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/Desafios-POO/desafio-4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/Desafios-POO/desafio-4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,61 +25,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0596064566777228E-90" />
-      <entry key="MS500" value="1.0116468164814018E-18" />
-      <entry key="S2" value="3.1715218238462685E-5" />
-      <entry key="S5" value="0.016092948852012973" />
-      <entry key="S10" value="0.14098723533166502" />
-      <entry key="S30" value="0.7480264621807547" />
-      <entry key="S60" value="1.2110001322519246" />
-      <entry key="M2" value="1.969474331962555" />
-      <entry key="M5" value="8.406023989219415" />
-      <entry key="M10" value="22.021268182550756" />
-      <entry key="M15" value="34.468090794892866" />
-      <entry key="M30" value="65.22192344264562" />
-      <entry key="H1" value="119.21065141262243" />
-      <entry key="H2" value="238.82718554540855" />
-      <entry key="H4" value="497.989829575526" />
-      <entry key="D1" value="1292.1592073292848" />
-      <entry key="W1" value="1569.1146551839945" />
+      <entry key="MS100" value="1.8102333556285808E-81" />
+      <entry key="MS500" value="7.104719112162607E-17" />
+      <entry key="S2" value="9.18093109978446E-5" />
+      <entry key="S5" value="0.024274745827733615" />
+      <entry key="S10" value="0.15580354884574654" />
+      <entry key="S30" value="0.5396574645120771" />
+      <entry key="S60" value="0.9028458034319251" />
+      <entry key="M2" value="2.6422903811053216" />
+      <entry key="M5" value="8.311195358426358" />
+      <entry key="M10" value="12.801942160300463" />
+      <entry key="M15" value="14.834923584664578" />
+      <entry key="M30" value="17.229155585379345" />
+      <entry key="H1" value="20.379854580408832" />
+      <entry key="H2" value="48.88672286778662" />
+      <entry key="H4" value="194.7406607548024" />
+      <entry key="D1" value="1117.9287035620066" />
+      <entry key="W1" value="1573.997847625463" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000748450608627" />
-      <entry key="S5" value="1.0329201394912524" />
-      <entry key="S10" value="1.255272472340748" />
-      <entry key="S30" value="2.0367384510134805" />
-      <entry key="S60" value="2.6754771021468167" />
-      <entry key="M2" value="3.656081606893033" />
-      <entry key="M5" value="7.359030132322608" />
-      <entry key="M10" value="13.133577989881381" />
-      <entry key="M15" value="17.688698281327696" />
-      <entry key="M30" value="28.21364984866004" />
-      <entry key="H1" value="47.416197368498906" />
-      <entry key="H2" value="85.99560477709791" />
-      <entry key="H4" value="153.4467999685162" />
-      <entry key="D1" value="331.17609522264763" />
-      <entry key="W1" value="389.8901835407145" />
+      <entry key="S2" value="1.0000000000000364" />
+      <entry key="S5" value="1.00000628536593" />
+      <entry key="S10" value="1.0035364475217097" />
+      <entry key="S30" value="1.2418442649505423" />
+      <entry key="S60" value="1.7114181899140637" />
+      <entry key="M2" value="2.3584306096639236" />
+      <entry key="M5" value="3.380452627910921" />
+      <entry key="M10" value="4.033327041679389" />
+      <entry key="M15" value="4.313324777622572" />
+      <entry key="M30" value="4.640103526248279" />
+      <entry key="H1" value="5.57646965393069" />
+      <entry key="H2" value="16.005775546539255" />
+      <entry key="H4" value="60.62516336104447" />
+      <entry key="D1" value="291.7042237221557" />
+      <entry key="W1" value="397.50998975919936" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="7.715247186165791E-4" />
-      <entry key="MS500" value="0.2384898876368895" />
-      <entry key="S2" value="0.698901664701121" />
-      <entry key="S5" value="0.909515422028244" />
-      <entry key="S10" value="1.301835395005778" />
-      <entry key="S30" value="2.7207012486079925" />
-      <entry key="S60" value="3.8380287383786444" />
-      <entry key="M2" value="5.588280437352624" />
-      <entry key="M5" value="15.728878752950932" />
-      <entry key="M10" value="35.1184286840615" />
-      <entry key="M15" value="52.120405980071496" />
-      <entry key="M30" value="93.39298285981417" />
-      <entry key="H1" value="166.57961379230605" />
-      <entry key="H2" value="324.7796573010702" />
-      <entry key="H4" value="651.4007707622754" />
-      <entry key="D1" value="1623.3232057518057" />
-      <entry key="W1" value="1959.002818914338" />
+      <entry key="MS100" value="0.004677651189917691" />
+      <entry key="MS500" value="0.34198382597562277" />
+      <entry key="S2" value="0.7648074067787353" />
+      <entry key="S5" value="0.9222662118809722" />
+      <entry key="S10" value="1.1060446724865243" />
+      <entry key="S30" value="1.7584401763758954" />
+      <entry key="S60" value="2.597802136944677" />
+      <entry key="M2" value="4.987118245560642" />
+      <entry key="M5" value="11.681019913342928" />
+      <entry key="M10" value="16.828030950494455" />
+      <entry key="M15" value="19.142850620063466" />
+      <entry key="M30" value="21.866218005151723" />
+      <entry key="H1" value="25.954028430520637" />
+      <entry key="H2" value="64.8864421609948" />
+      <entry key="H4" value="255.35282369866616" />
+      <entry key="D1" value="1409.6225353398759" />
+      <entry key="W1" value="1971.5058186941487" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -94,48 +94,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Retangulo.executor": "Run",
-    "Python.aula-2.executor": "Run",
-    "Python.aula-3.executor": "Run",
-    "Python.camera.executor": "Run",
-    "Python.contaBancaria-Melhorada.executor": "Run",
-    "Python.desafio-1.executor": "Run",
-    "Python.desafio-2.executor": "Run",
-    "Python.desafio-3.executor": "Run",
-    "Python.desafio-4.executor": "Run",
-    "Python.desafio.executor": "Run",
-    "Python.funcionario.executor": "Run",
-    "Python.livros.executor": "Run",
-    "Python.primeira-classe.executor": "Run",
-    "Python.rich01.executor": "Run",
-    "Python.rich02.executor": "Run",
-    "Python.rich03.executor": "Run",
-    "Python.rich04.executor": "Run",
-    "Python.rich05.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ToolWindow.Run.ShowToolbar": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Retangulo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.camera.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contaBancaria-Melhorada.executor&quot;: &quot;Run&quot;,
+    &quot;Python.desafio-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.desafio-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.desafio-3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.desafio-4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.desafio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcionario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.livros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.primeira-classe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rich01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rich02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rich03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rich04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rich05.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ToolWindow.Run.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="DjangoTestsConfigurationType">
+}</component>
+  <component name="RunManager" selected="Python.contaBancaria-Melhorada">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Curso_PYTHON_Gustavo-guanabara" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,6 +144,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="~/Documentos/GitHub/Curso_PYTHON_Gustavo-guanabara/.venv" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -151,11 +152,13 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -179,6 +182,32 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="contaBancaria-Melhorada" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Curso_PYTHON_Gustavo-guanabara" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="~/Documentos/GitHub/Curso_PYTHON_Gustavo-guanabara/.venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO /contaBancaria-Melhorada.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -236,50 +265,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Python.Celery" factoryName="Python.Celery.App">
+    <configuration name="funcionario" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Curso_PYTHON_Gustavo-guanabara" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="SDK_NAME" value="~/Documentos/GitHub/Curso_PYTHON_Gustavo-guanabara/.venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.Celery" factoryName="Python.Celery.Task">
-      <module name="Curso_PYTHON_Gustavo-guanabara" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="Curso_PYTHON_Gustavo-guanabara" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="launchJavascriptDebuger" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO /funcionario.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
   </component>
@@ -317,7 +326,10 @@
       <workItem from="1787410612399" duration="8010000" />
       <workItem from="1787437887885" duration="746000" />
       <workItem from="1787498753766" duration="7326000" />
-      <workItem from="1787531608087" duration="2698000" />
+      <workItem from="1787531608087" duration="2854000" />
+      <workItem from="1787852031291" duration="4342000" />
+      <workItem from="1788014596688" duration="44000" />
+      <workItem from="1788016500012" duration="19000" />
     </task>
     <servers />
   </component>
@@ -354,7 +366,7 @@
     <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$livros.coverage" NAME="livros Coverage Results" MODIFIED="1786228614187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
     <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$desafio.coverage" NAME="desafio Coverage Results" MODIFIED="1787410661225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aprendizado_Drones/Aprendendo try e except/desafio" />
     <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$rich04.coverage" NAME="rich04 Coverage Results" MODIFIED="1787411984008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/Rich" />
-    <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$desafio_4.coverage" NAME="desafio-4 Coverage Results" MODIFIED="1787534572236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/Desafios-POO" />
+    <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$desafio_4.coverage" NAME="desafio-4 Coverage Results" MODIFIED="1787875145154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/Desafios-POO" />
     <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$contaBancaria_Melhorada.coverage" NAME="contaBancaria-Melhorada Coverage Results" MODIFIED="1787437906879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/POO " />
     <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$camera.coverage" NAME="camera Coverage Results" MODIFIED="1787410753483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aprendizado_Drones/aprendizado sobre altitudes/camera pelo OpenCV" />
     <SUITE FILE_PATH="coverage/Curso_PYTHON_Gustavo_guanabara$rich01.coverage" NAME="rich01 Coverage Results" MODIFIED="1787244296095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Módulo 4 - Gustavo Guanabara/Rich" />
