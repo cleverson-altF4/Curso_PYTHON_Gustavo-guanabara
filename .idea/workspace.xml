@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ccaafef-fe5b-4e39-b925-621617c146fd" name="Changes" comment="" />
+    <list default="true" id="0ccaafef-fe5b-4e39-b925-621617c146fd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Módulo 1 - Gustavo Guanabara/Modulos em python/sorteio/random.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 1 - Gustavo Guanabara/Modulos em python/sorteio/random.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Módulo 2 - Gustavo Guanabara /Laços While/desafo-16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 2 - Gustavo Guanabara /Laços While/desafo-16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Desafio-resolvido_guanabara-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Desafio-resolvido_guanabara-1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,47 +96,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Retangulo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.aula-2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.aula-3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.camera.executor&quot;: &quot;Run&quot;,
-    &quot;Python.contaBancaria-Melhorada.executor&quot;: &quot;Run&quot;,
-    &quot;Python.desafio-1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.desafio-2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.desafio-3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.desafio-4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.desafio.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funcionario.executor&quot;: &quot;Run&quot;,
-    &quot;Python.livros.executor&quot;: &quot;Run&quot;,
-    &quot;Python.primeira-classe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rich01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rich02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rich03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rich04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rich05.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ToolWindow.Run.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Desafio-resolvido_guanabara-1.executor": "Run",
+    "Python.Maior e menor da sequência.executor": "Run",
+    "Python.Retangulo.executor": "Run",
+    "Python.aula-1.executor": "Run",
+    "Python.aula-2.executor": "Run",
+    "Python.aula-3.executor": "Run",
+    "Python.aula-5.executor": "Run",
+    "Python.aula-6.executor": "Run",
+    "Python.camera.executor": "Run",
+    "Python.contaBancaria-Melhorada.executor": "Run",
+    "Python.desafio-1.executor": "Run",
+    "Python.desafio-2.executor": "Run",
+    "Python.desafio-3.executor": "Run",
+    "Python.desafio-4.executor": "Run",
+    "Python.desafio-7-superPA.executor": "Run",
+    "Python.desafio.executor": "Run",
+    "Python.desafo-16.executor": "Run",
+    "Python.funcionario.executor": "Run",
+    "Python.livros.executor": "Run",
+    "Python.music.executor": "Run",
+    "Python.pow_log.executor": "Run",
+    "Python.primeira-classe.executor": "Run",
+    "Python.random.executor": "Run",
+    "Python.rich01.executor": "Run",
+    "Python.rich02.executor": "Run",
+    "Python.rich03.executor": "Run",
+    "Python.rich04.executor": "Run",
+    "Python.rich05.executor": "Run",
+    "Python.venda.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ToolWindow.Run.ShowToolbar": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/clevison/Documentos/GitHub/Curso_PYTHON_Gustavo-guanabara",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
-  <component name="RunManager" selected="Python.contaBancaria-Melhorada">
+}]]></component>
+  <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Curso_PYTHON_Gustavo-guanabara" />
       <option name="ENV_FILES" value="" />
@@ -292,8 +310,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.9437.214" />
-        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
       </set>
     </attachedChunks>
   </component>
@@ -328,6 +345,11 @@
       <workItem from="1788014596688" duration="44000" />
       <workItem from="1788016500012" duration="19000" />
       <workItem from="1788016579549" duration="606000" />
+      <workItem from="1788018190135" duration="4000" />
+      <workItem from="1788018238942" duration="2000" />
+      <workItem from="1788018266730" duration="8000" />
+      <workItem from="1788018331783" duration="29000" />
+      <workItem from="1788018618924" duration="13000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,7 @@ dinheiro = int(input("Valor R$: "))
 total = dinheiro
 cedulas = 50
 total_cedulas = 0
-            
+
 while True:
     if total >= cedulas:
         total -= cedulas
