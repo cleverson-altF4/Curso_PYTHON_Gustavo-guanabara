@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ccaafef-fe5b-4e39-b925-621617c146fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Desafio-resolvido_guanabara-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Desafio-resolvido_guanabara-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Desafio-resolvido_guanabara-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Desafio-resolvido_guanabara-3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Projeto-listadecompras.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Projeto-listadecompras.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +82,9 @@
       <entry key="W1" value="1971.5058186941487" />
     </decayedShown>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -149,6 +150,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "preferences.editor",
     "to.speed.mode.migration.done": "true"
   }
