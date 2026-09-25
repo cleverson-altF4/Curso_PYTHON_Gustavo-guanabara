@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0ccaafef-fe5b-4e39-b925-621617c146fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Módulo 1 - Gustavo Guanabara/Modulos em python/sorteio/random.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 1 - Gustavo Guanabara/Modulos em python/sorteio/random.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Módulo 2 - Gustavo Guanabara /Laços While/desafo-16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 2 - Gustavo Guanabara /Laços While/desafo-16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Desafio-resolvido_guanabara-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Desafio-resolvido_guanabara-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Desafio-resolvido_guanabara-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Desafio-resolvido_guanabara-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Desafio-resolvido_guanabara-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Desafio-resolvido_guanabara-3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Projeto-listadecompras.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 3  -Gustavo Guanabara/Listas/Projeto-listadecompras.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Desafio-resolvido_guanabara-1.executor": "Run",
+    "Python.Desafio-resolvido_guanabara-2.executor": "Run",
+    "Python.Desafio-resolvido_guanabara-3.executor": "Run",
+    "Python.Desafio-resolvido_guanabara-6.executor": "Run",
     "Python.Maior e menor da sequência.executor": "Run",
+    "Python.Projeto-listadecompras.executor": "Run",
     "Python.Retangulo.executor": "Run",
     "Python.aula-1.executor": "Run",
     "Python.aula-2.executor": "Run",

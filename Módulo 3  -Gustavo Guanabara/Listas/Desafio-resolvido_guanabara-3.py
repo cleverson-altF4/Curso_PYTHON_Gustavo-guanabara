@@ -1,24 +1,25 @@
-#Crie um programa onde o usuário possa digitar 5 valores númericos e cadastre-os em uma lista já na posição correta de inserção sem usar o Sort().
-#No final mostre a lista ordenada na tela
+"""Lista ordenada dinâmica"""
 
-# Nível intermediário
+listaVazia = []
 
-
-lista = []
-
-for i in range(0,5):
+for indice in range(0, 5):
     numero = int(input("Digite um número: "))
-    
-    if i == 0 or numero > lista[len(lista)-1]:
-        lista.append(numero)
-        print("Adicionado no final da lista")
-    else:
-        posicao = 0
-        while posicao < len(lista):
-            if numero <= lista[posicao]:
-                lista.insert(posicao, numero)
-                print(f"Adicionado na posição {posicao}")
-                break
-            posicao += 1
 
-print(lista)
+    if indice == 0 or numero > listaVazia[len(listaVazia)-1]:
+        listaVazia.append(numero)
+        print("adicionado no final da lista")
+    else:
+        posicaoCorreta = 0
+
+        while posicaoCorreta < len(listaVazia):
+            if numero <= listaVazia[posicaoCorreta]:
+                listaVazia.insert(posicaoCorreta
+                                 ,numero)
+                print(f"Inserido na posição {posicaoCorreta}")
+                break
+            posicaoCorreta += 1
+
+
+resultado = listaVazia
+print(resultado)
+
