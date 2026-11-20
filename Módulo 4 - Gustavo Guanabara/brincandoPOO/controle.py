@@ -1,67 +1,85 @@
+from time import  sleep
+from traceback import print_tb
+
+
 class TV:
-    VolumeMAX = 100
-    CanalMAX = 10
+    volumeMax = 100
+    canalMax = 20
+
     def __init__(self, marca):
         self.marca = marca
         self.volume = 10
-        self.canal = 1
         self.ligada = False
+        self.canal = 1
 
     def __str__(self) -> str:
-       if not self.ligada:
-           return f"Tv {self.marca} - Desligada"
-       else:
-           return f"Tv {self.marca} - Ligada"
+        if not self.ligada:
+            return f"{self.marca} | Desligada"
+        else:
+            return f"{self.marca} | Ligada"
 
-    def ligar(self):
+
+    def ligarTV(self):
         self.ligada = True
+        print('''
+            Ligando Televisão
+                ''')
+        sleep(1.5)
+        print(f"{self.marca} - Ligada")
 
-    def desligar(self):
+    def desligarTV(self):
         self.ligada = False
+        print('''
+            Desligando Televisão
+               ''')
+        sleep(1.5)
+        print(f"{self.marca} - Desligada")
 
     def aumentarVolume(self):
-        if not self.ligada:
-            print("TV está desligada")
+        if not self.volume:
+            print("")
             return
 
-        if self.volume >= self.VolumeMAX:
-            print("O volume está no máximo")
-            return
+        if self.volume > self.volumeMax:
+            print(f"Volume está no máximo")
 
         self.volume += 1
 
     def diminuirVolume(self):
-        if not self.ligada:
-            print("TV está desligada")
+        if not self.volume:
+            print("")
             return
 
         if self.volume <= 0:
-            print("O volume está no mínimoo")
-            return
+            print(f"Volume já está no mínimo")
 
         self.volume -= 1
 
-    def mudarCanal(self, numero):
+
+
+    def mudarCanal(self, opcao):
         if not self.canal:
-            print(f"TV está desligada")
+            print("TV desligada")
             return
 
-        if numero < 1 or numero > self.CanalMAX:
-            print(f"Canal inválido, escolha de 1 a {self.CanalMAX}")
-            return
+        if opcao < 1 or opcao > self.canalMax:
+            print(f"Selecione o canal existente | {self.canal} até {self.canalMax}")
 
-        self.canal = numero
+        self.canal = opcao
+
+        if opcao == 9:
+            print("SBT")
+        elif opcao == 11:
+            print("Globo")
+        elif opcao == 13:
+            print("Record")
+        else:
+            print(opcao)
 
 
-tv = TV("LG")
-tv.mudarCanal(5)       # avisa: desligada
-print(tv.canal)        # 1
 
-tv.ligar()
-tv.mudarCanal(1)       # válido, sem aviso
-tv.mudarCanal(7)
-tv.mudarCanal(3)
-print(tv.canal)        # 3
-
-tv.mudarCanal(50)      # inválido
-print(tv.canal)        # continua 3
+televisao = TV("LG")
+televisao.ligarTV()
+televisao.aumentarVolume()
+print(televisao.volume)
+televisao.mudarCanal(-1)
